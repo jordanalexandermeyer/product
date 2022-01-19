@@ -36,7 +36,8 @@
 - Setting up the marketplace
   - Bringing DAOs and investors to the platform
 - Becoming a trusted entity
-  - Will allow us to gain adoption for treasury
+  - Will allow us to partner with existing treasury infrastructuer providers to create a treasury that supports liens
+    - This will allow bondholders to be senior to equity/token holders in the capital structure
 
 ## Distill
 
