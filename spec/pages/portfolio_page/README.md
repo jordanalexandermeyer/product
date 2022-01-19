@@ -11,6 +11,9 @@ The purpose of the portfolio page is to display a user's purchased bonds and com
 
 ## User flows
 
+- [Investor converts bonds](../../user_flows/investor_converts_bonds.md)
+- [Investor withdraws funds](../../user_flows/investor_withdraws_funds.md)
+
 ## User needs
 
 | User     | User Wants         | Product Needs                                                                   |

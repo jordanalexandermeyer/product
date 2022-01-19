@@ -11,6 +11,9 @@ The purpose of the bond page is to enable the user to learn about and manage the
 
 ## User flows
 
+- [Investor converts bonds](../../user_flows/investor_converts_bonds.md)
+- [Investor withdraws funds](../../user_flows/investor_withdraws_funds.md)
+
 ## User needs
 
 | User     | User Wants                               | Product Needs                                |
