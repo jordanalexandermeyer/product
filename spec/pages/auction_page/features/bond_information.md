@@ -15,7 +15,7 @@ The purpose of bond information is to display to the user necessary information 
 
 ## Implementation
 
-The auction information will be displayed toward the bottom of the page in a grid.
+The bond information will be displayed toward the bottom of the page in a grid.
 
 ### Information to display
 

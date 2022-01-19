@@ -11,12 +11,23 @@ The purpose of the portfolio page is to display a user's purchased bonds and com
 
 ## User flows
 
+- [Investor converts bonds](../../user_flows/investor_converts_bonds.md)
+- [Investor withdraws funds](../../user_flows/investor_withdraws_funds.md)
+
 ## User needs
 
-| User     | User Wants | Product Needs |
-| -------- | ---------- | ------------- |
-| Investor | TODO       | TODO          |
+| User     | User Wants         | Product Needs                                                                   |
+| -------- | ------------------ | ------------------------------------------------------------------------------- |
+| Investor | To see their bonds | Display each bond the user has in their wallet along with details for each bond |
 
 ## Features
 
+Information we have to display
+
+### [Bond list](features/bond_list.md)
+
 ## Examples
+
+### Barnbridge
+
+![](../../assets/barnbridge/bond_list.png)
