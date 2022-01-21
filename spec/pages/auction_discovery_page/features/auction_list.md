@@ -20,7 +20,7 @@ Lists will be implemented as a table with an explanation of what curated auction
 
 - Description: This is the max issuance provided by the issuer
 - Value: amount and type of asset
-  - Ex: 50,000,000 FEI
+  - Ex: 50,000,000 USDC
 
 #### **Auction status**
 

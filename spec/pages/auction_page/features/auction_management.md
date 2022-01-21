@@ -24,6 +24,13 @@ Should only be viewable by the creator of the auction.
 - Description: The auction creator can cancel the auction before it has begun.
 - Value: button
 
+#### Whitelist participants **(Upcoming and Active only)**
+
+- Description: The list of participant wallet addresses that can participate in the auction.
+- Value: options
+  - CSV file
+  - Comma separated list
+
 #### Execute auction and claim funds **(Ended only)**
 
 - Description: The auction creator can execute the auction after it has ended. This action is permissionless but it is the responsibility of the creator. Funds are automatically distributed to the auction creator's wallet.

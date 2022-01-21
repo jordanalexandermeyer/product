@@ -70,13 +70,13 @@ The bond information will be displayed toward the bottom of the page in a grid.
 
 - Description: The price a token has to increase to in order for bond redemption to be profitable at maturity
 - Value: number and type of asset
-  - Ex: 75 FEI
+  - Ex: 75 USDC
 
 #### Current token price
 
 - Description: The current price of the asset provided as collateral in terms of the borrowed asset
 - Value: number and type of asset
-  - Ex: 25 FEI
+  - Ex: 25 USDC
 
 ## Example
 
