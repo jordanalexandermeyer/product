@@ -30,7 +30,7 @@ The orderbook will be a table with headers at the top and each order represented
 
 - Description: The bond price submitted as part of the bid.
 - Value: amount and type of asset
-  - Ex: 0.875 FEI
+  - Ex: 0.875 USDC
 
 #### Interest rate
 
@@ -42,7 +42,7 @@ The orderbook will be a table with headers at the top and each order represented
 
 - Description: The size of the bid
 - Value: amount and type of asset
-  - Ex: 750,000 FEI
+  - Ex: 750,000 USDC
 
 ## Examples
 

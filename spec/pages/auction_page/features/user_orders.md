@@ -30,7 +30,7 @@ User orders will be implemented as a table at the bottom of the page with each r
 
 - Description: The bond price submitted as part of the bid.
 - Value: amount and type of asset
-  - Ex: 0.875 FEI
+  - Ex: 0.875 USDC
 
 #### Interest rate
 
@@ -42,7 +42,7 @@ User orders will be implemented as a table at the bottom of the page with each r
 
 - Description: The size of the bid
 - Value: amount and type of asset
-  - Ex: 750,000 FEI
+  - Ex: 750,000 USDC
 
 #### Status
 

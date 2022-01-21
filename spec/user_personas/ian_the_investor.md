@@ -26,7 +26,7 @@ A: Married [Not confident]
 
 ### Interests
 
-Q: what are the general interests of people in this persona?
+Q: What are the general interests of people in this persona?
 
 A: DeFi
 
@@ -36,7 +36,7 @@ Q: What is the primary language used by people in this persona?
 
 A: English, Mandarin, Spanish, Hindi [Not confident which is largest]
 
-### Favourite Websites
+### Favorite Websites
 
 Q: Where do people in this persona go to learn new information?
 

@@ -31,7 +31,7 @@ The action panel will have a different implementation and purpose depending on t
 - Balance
   - Description: Amount of bonds in connected wallet
   - Value: number
-    - Ex: 750,000 Uniswap_Mar_19_2022_FEI
+    - Ex: 750,000 Uniswap_Mar_19_2022_USDC
 - Conversion ratio
   - Description: Amount of collateral each bond is convertible to
   - Value: amount and type of asset
@@ -46,7 +46,7 @@ The action panel will have a different implementation and purpose depending on t
 - Amount
   - Description: amount of bonds to convert to collateral asset
   - Value: amount and type of asset
-    - Ex: 750,000 Uniswap_Mar_19_2022_FEI (whatever this format is)
+    - Ex: 750,000 Uniswap_Mar_19_2022_USDC (whatever this format is)
 - Convert button
 
 #### **Withdraw panel**
@@ -76,11 +76,11 @@ The action panel will have a different implementation and purpose depending on t
 - Balance
   - Description: Amount of bonds in connected wallet
   - Value: number
-    - Ex: 750,000 Uniswap_Mar_19_2022_FEI
+    - Ex: 750,000 Uniswap_Mar_19_2022_USDC
 - Withdraw amount
   - Description: Amount of borrowed asset and collateral available to withdraw
   - Value: amount and type of assets
-    - Ex: 500,640 FEI and 35 UNI
+    - Ex: 500,640 USDC and 35 UNI
 
 #### Inputs
 
@@ -99,11 +99,11 @@ The action panel will have a different implementation and purpose depending on t
 - Balance
   - Description: Amount of bonds in connected wallet
   - Value: number
-    - Ex: 750,000 Uniswap_Mar_19_2022_FEI
+    - Ex: 750,000 Uniswap_Mar_19_2022_USDC
 - Withdraw amount
   - Description: Amount of borrowed asset and collateral available to withdraw
   - Value: amount and type of assets
-    - Ex: 500,640 FEI and 35 UNI
+    - Ex: 500,640 USDC and 35 UNI
 
 #### Inputs
 

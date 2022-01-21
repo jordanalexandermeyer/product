@@ -10,6 +10,11 @@ The bond information will be displayed in a panel.
 
 ### Information to display
 
+#### Bond name and address
+
+- Description: The name of the bond token. Next to the name should be a link to the contract on etherscan
+- Value: UNI CONVERT 07AUG2022 (USDC)
+
 #### Issuer
 
 - Description: The name of the issuing organization provided by auction creator
@@ -38,13 +43,13 @@ The bond information will be displayed in a panel.
 
 - Description: The amount of asset borrowed
 - Value: amount and type of asset
-  - Ex: 15,000,000 FEI
+  - Ex: 15,000,000 USDC
 
 #### Bond value
 
 - Description: The value of bond assuming a linear increase in value to maturity
 - Value: amount and type of asset
-  - Ex: 15,521,420 FEI
+  - Ex: 15,521,420 USDC
 
 #### Bond collateral
 
@@ -56,13 +61,13 @@ The bond information will be displayed in a panel.
 
 - Description: The current price of the asset provided as collateral in terms of the borrowed asset
 - Value: number and type of asset
-  - Ex: 25 FEI
+  - Ex: 25 USDC
 
 #### Bond collateral value
 
 - Description: The current value of the collateral in terms of the borrowed asset
 - Value: number and type of asset
-  - 12,500,000 FEI
+  - 12,500,000 USDC
 
 #### Current collateralization ratio
 
@@ -80,7 +85,7 @@ The bond information will be displayed in a panel.
 
 - Description: The price a token has to be in order for bond redemption to be break-even
 - Value: number and type of asset
-  - Ex: 75 FEI
+  - Ex: 75 USDC
 
 ## Example
 

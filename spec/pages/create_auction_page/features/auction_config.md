@@ -14,20 +14,20 @@ Auction config is a step in the auction creation page which contains sub-steps.
 
 **inputs**
 
-* Start date
-* End date
+- Start date
+- End date
 
 **display**
 
-* Auction duration
-* Bond maturity date
+- Auction duration
+- Bond maturity date
 
 ### Bidding
 
 **inputs**
 
-* Minimum bid size
-* Last date to cancel bid (must be in between start/end date)
+- Minimum bid size
+- Last date to cancel bid (must be in between start/end date)
 
 **display**
 
@@ -35,50 +35,50 @@ Auction config is a step in the auction creation page which contains sub-steps.
 
 **inputs**
 
-* Type (private/public)
-* if private
-  * Signer address
+- Type (private/public)
+- if private
+  - Signer address (this may not be needed, we can use the auction creator address as the signer)
 
 **display**
 
-* Link to docs explaining how signer works
-* Tooltip saying addresses can be added to whitelist later
-* Tooltip saying not to use an address with assets in it (need clarity on this)
+- Link to docs explaining how signer works (explain the auction creator address is the signer)
+- Tooltip saying addresses can be added to whitelist later
+- Tooltip saying not to use an address with assets in it (need clarity on this)
 
 ### Information
 
 **inputs**
 
-* Issuer
-* Auction description
-* Prospectus link
+- Issuer
+- Auction description
+- Prospectus link
 
 **display**
 
-* Link to docs explaining what a prospectus is
-* Platform fee
+- Link to docs explaining what a prospectus is
+- Platform fee
 
 ### Review
 
 **display**
 
-* Start and end
-  * Start date
-  * End date
-  * Duration
-  * Bond maturity date
-* Bidding
-  * Minimum bid size
-  * Last date to cancel bid (must be in between start/end date)
-* Auction type
-  * Type
-  * if private
-    * Signer address
-* Auction information
-  * Issuer
-  * Auction description
-  * Prospectus link
-  * Platform fee
+- Start and end
+  - Start date
+  - End date
+  - Duration
+  - Bond maturity date
+- Bidding
+  - Minimum bid size
+  - Last date to cancel bid (must be in between start/end date)
+- Auction type
+  - Type
+  - if private
+    - Signer address
+- Auction information
+  - Issuer
+  - Auction description
+  - Prospectus link
+  - Platform fee
 
 ## Examples
 
@@ -86,12 +86,12 @@ Auction config is a step in the auction creation page which contains sub-steps.
 
 Contract information
 
-![](../../../assets/copper/auction\_config.png)
+![](../../../assets/copper/auction_config.png)
 
 Auction config
 
-![](../../../assets/copper/bond\_config.png)
+![](../../../assets/copper/bond_config.png)
 
 Review
 
-![](../../../assets/copper/auction\_summary.png)
+![](../../../assets/copper/auction_summary.png)
