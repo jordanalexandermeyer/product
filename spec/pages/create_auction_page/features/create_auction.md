@@ -10,15 +10,15 @@ Create action is the last step in the auction creation page which uses buttons +
 
 **inputs**
 
-* Approve collateral access button
-* Schedule auction button
+- Approve collateral access button
+- Schedule auction button
 
 **display**
 
-* View auction button (once completed)
+- View auction button (once completed)
 
 ## Examples
 
 ### Copper Launch
 
-![](../../../../../spec/assets/copper/create\_auction.png)
+![](../../../assets/copper/create_auction.png)
