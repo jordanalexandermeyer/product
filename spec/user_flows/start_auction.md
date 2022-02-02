@@ -11,13 +11,13 @@
 
 1. User starts on the [auction discovery page](../pages/auction\_discovery\_page/)
 
-![](../../../spec/assets/copper/auction\_discovery\_page.png)
+![](../assets/copper/auction\_discovery\_page.png)
 
 2\. User clicks "create auction" call to action
 
 3\. User navigates to [auction creation page](../pages/create\_auction\_page/)
 
-![](../../../spec/assets/copper/auction\_creation\_page.png)
+![](../assets/copper/auction\_creation\_page.png)
 
 4\. User enters [configuration for bond](../pages/create\_auction\_page/features/bond\_config.md) and clicks "next"
 
@@ -25,10 +25,10 @@
 
 6\. User reviews auction details on the [review summary page](../pages/create\_auction\_page/features/review\_summary.md)
 
-![](../../../spec/assets/copper/auction\_summary.png)
+![](../assets/copper/auction\_summary.png)
 
-7\. User creates auction on the [create auction page](../pages/create\_auction\_page/features/create\_auction.md)
+7\. User creates auction on the [create auction page](../pages/create\_auction\_page/)
 
-![](../../../spec/assets/copper/create\_auction.png)
+![](../assets/copper/create\_auction.png)
 
 8\. User clicks link to go to created auction which brings them to their [auction page](../pages/auction\_page/)
