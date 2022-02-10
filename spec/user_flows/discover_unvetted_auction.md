@@ -8,17 +8,17 @@
 
 1. User starts on landing page
 
-![](../../../spec/assets/copper/landing\_page.png)
+![](../../../spec/assets/copper/landing_page.png)
 
 2\. User clicks "view auctions" call to action
 
 3\. User navigates to auction discovery page
 
-![](../../../spec/assets/copper/auction\_discovery\_page.png)
+![](../../../spec/assets/copper/auction_discovery_page.png)
 
 4\. User sees auction lists created by vetted 3rd parties and an unvetted list which has a warning icon
 
-![](../../../spec/assets/copper/auction\_discovery.png)
+![](../../../spec/assets/copper/auction_discovery.png)
 
 5\. User click on unvetted auction list
 
@@ -26,6 +26,6 @@
 
 7\. User sees list of unvetted auctions and details on each auction
 
-![](../../../spec/assets/copper/unvetted\_auction\_list.png)
+![](../../../spec/assets/copper/unvetted_auction_list.png)
 
 8\. User selects auction to navigate to its page

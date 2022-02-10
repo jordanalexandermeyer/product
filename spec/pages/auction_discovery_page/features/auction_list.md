@@ -12,52 +12,52 @@ Lists will be implemented as a table with an explanation of what curated auction
 
 #### **Issuer**
 
-* Description: This is the creator of the auction and issuer of debt
-* Value: image and name of org
-  * Ex: 🦄 Uniswap
+- Description: This is the creator of the auction and issuer of debt
+- Value: image and name of org
+  - Ex: 🦄 Uniswap
 
-#### **Offering amount**
+#### **Offering**
 
-* Description: This is the max issuance provided by the issuer
-* Value: amount and type of asset
-  * Ex: 50,000,000 USDC
+- Description: This is the amount of bonds the issuer is selling
+- Value: amount and name of bond
+  - Ex: 50,000,000 UNISWAP CONVERT (UNI) 07AUG2022 (USDC)
 
 #### **Auction status**
 
-* Description: The current status of the auction
-* Value: Depends on auction state
-  * Examples:
-    * Upcoming: Starting in 3.5 days
-    * Active: Ending in 1.2 days
-    * Ended: Ended 23 days ago
+- Description: The current status of the auction
+- Value: Depends on auction state
+  - Examples:
+    - Upcoming: Starting in 3.5 days
+    - Active: Ending in 1.2 days
+    - Ended: Ended 23 days ago
 
 #### **Interest rate**
 
-* Description: Depends on auction state
-  * Upcoming: The maximum interest rate set by the issuer
-  * Active: The interest rate that would be used if the auction were to end now
-  * Ended: The interest rate that was set in the auction
-* Value: percent
-  * Ex: 12%
+- Description: Depends on auction state
+  - Upcoming: The maximum interest rate set by the issuer
+  - Active: The interest rate that would be used if the auction were to end now
+  - Ended: The interest rate that was set in the auction
+- Value: percent
+  - Ex: 12%
 
 #### **Convertible**
 
-* Description: Is the bond convertible or not
-* Value: Depends
-  * If no, then no.
-  * If yes, then image of token convertible into
+- Description: Is the bond convertible or not
+- Value: Depends
+  - If no, then no.
+  - If yes, then show [convertibility_ratio](../../bond_page/features/bond_information.md####convertibility_ratio)
 
 #### **Term**
 
-* Description: How long until the bond is repaid
-* Value: months
-  * Ex: 12 months
+- Description: How long until the bond is repaid
+- Value: months
+  - Ex: 12 months
 
 #### **Collateral %**
 
-* Description: Collateral coverage of the bond offering
-* Value: percent and type of asset
-  * Ex: 50% UNI
+- Description: Collateral coverage of the bond offering
+- Value: percent and type of asset
+  - Ex: 50% UNI
 
 ## Examples
 
@@ -65,12 +65,12 @@ Lists will be implemented as a table with an explanation of what curated auction
 
 #### Auction panel
 
-![](../../../../../spec/assets/copper/auction\_discovery.png)
+![](../../../../../spec/assets/copper/auction_discovery.png)
 
 #### Vetted list
 
-![](../../../../../spec/assets/copper/vetted\_auction\_list.png)
+![](../../../../../spec/assets/copper/vetted_auction_list.png)
 
 #### Unvetted list
 
-![](../../../../../spec/assets/copper/unvetted\_auction\_list.png)
+![](../../../../../spec/assets/copper/unvetted_auction_list.png)
