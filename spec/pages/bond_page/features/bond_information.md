@@ -12,83 +12,83 @@ The bond information will be displayed in a panel.
 
 #### Bond name and address
 
-* Description: The name of the bond token. Next to the name should be a link to the contract on etherscan
-* Value: UNI CONVERT 07AUG2022 (USDC)
+- Description: The name of the bond token. Next to the name should be a link to the contract on etherscan
+- Value: UNISWAP CONVERT (UNI) 07AUG2022 (USDC)
 
 #### Issuer
 
-* Description: The name of the issuing organization provided by auction creator
-* Value: string
-  * Ex: Uniswap
+- Description: The name of the issuing organization provided by auction creator
+- Value: string
+  - Ex: Uniswap
 
 #### Interest rate
 
-* Description: The interest rate
-* Value: percent
-  * Ex: 8%
+- Description: The interest rate
+- Value: percent
+  - Ex: 8%
 
 #### Bond term length
 
-* Description: Amount of time from the issuance event until the bond matures.
-* Value: months
-  * Ex: 12 months
+- Description: Amount of time from the issuance event until the bond matures.
+- Value: months
+  - Ex: 12 months
 
 #### Maturity date
 
-* Description: Date the bond matures.
-* Value: date
-  * Ex: Jan 19, 2023
+- Description: Date the bond matures.
+- Value: date
+  - Ex: Jan 19, 2023
 
 #### Borrowed amount
 
-* Description: The amount of asset borrowed
-* Value: amount and type of asset
-  * Ex: 15,000,000 USDC
+- Description: The amount of asset borrowed
+- Value: amount and type of asset
+  - Ex: 15,000,000 USDC
 
 #### Bond value
 
-* Description: The value of bond assuming a linear increase in value to maturity
-* Value: amount and type of asset
-  * Ex: 15,521,420 USDC
+- Description: The value of bond assuming a linear increase in value to maturity
+- Value: amount and type of asset
+  - Ex: 15,521,420 USDC
 
 #### Bond collateral
 
-* Description: Type and amount of asset being provided as collateral for bond issuance.
-* Value: number and type of asset
-  * Ex: 500,000 UNI
+- Description: Type and amount of asset being provided as collateral for bond issuance.
+- Value: number and type of asset
+  - Ex: 500,000 UNI
 
 #### Current token price
 
-* Description: The current price of the asset provided as collateral in terms of the borrowed asset
-* Value: number and type of asset
-  * Ex: 25 USDC
+- Description: The current price of the asset provided as collateral in terms of the borrowed asset
+- Value: number and type of asset
+  - Ex: 25 USDC
 
 #### Bond collateral value
 
-* Description: The current value of the collateral in terms of the borrowed asset
-* Value: number and type of asset
-  * 12,500,000 USDC
+- Description: The current value of the collateral in terms of the borrowed asset
+- Value: number and type of asset
+  - 12,500,000 USDC
 
 #### Current collateralization ratio
 
-* Description: Calculated by dividing value of collateral offered by current bond value.
-* Value: percent
-  * Ex: 50%
+- Description: Calculated by dividing value of collateral offered by current bond value.
+- Value: percent
+  - Ex: 50%
 
-#### Convertible asset amount
+#### Conversion ratio
 
-* Description: The amount of collateral asset the bonds are convertible into
-* Value: number and type of asset
-  * Ex: 300,000 UNI
+- Description: The amount of collateral asset each bond is convertible into
+- Value: number and type of asset
+  - Ex: 0.01 UNI/bond
 
 #### Breakeven token price of convertibility
 
-* Description: The price a token has to be in order for bond redemption to be break-even
-* Value: number and type of asset
-  * Ex: 75 USDC
+- Description: The price a token has to be in order for bond redemption to be break-even
+- Value: number and type of asset
+  - Ex: 75 USDC
 
 ## Example
 
 ### Barnbridge
 
-![](../../../../../spec/assets/barnbridge/bond\_information.png) ![](../../../../../spec/assets/barnbridge/bond\_information\_large.png)
+![](../../../../../spec/assets/barnbridge/bond_information.png) ![](../../../../../spec/assets/barnbridge/bond_information_large.png)
