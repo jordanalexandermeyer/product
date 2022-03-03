@@ -6,12 +6,12 @@ The purpose of the order panel is to allow users to submit bids to the auction. 
 
 ## States
 
-* Upcoming
-  * Auction has not started
-* Active
-  * Auction is ongoing
-* Ended
-  * Auction has ended
+- Upcoming
+  - Auction has not started
+- Active
+  - Auction is ongoing
+- Ended
+  - Auction has ended
 
 ## Implementation
 
@@ -27,29 +27,29 @@ Inputs allowing a bid to be placed.
 
 #### **Information**
 
-* Balance
-  * Description: Amount of bidding asset in connected wallet
-  * Value: number
-    * Ex: 750,000
-* Order cancellation cutoff date
-  * Description: The date after which an order cannot be cancelled
-  * Value: date and time
-    * Ex: Jan 14, 2022 12:00 UTC
+- Balance
+  - Description: Amount of bidding asset in connected wallet
+  - Value: number
+    - Ex: 750,000
+- Order cancellation cutoff date
+  - Description: The date after which an order cannot be cancelled
+  - Value: date and time
+    - Ex: Jan 14, 2022 12:00 UTC
 
 #### **Inputs**
 
-* Amount
-  * Description: Size of bid
-  * Value: amount and type of asset
-    * Ex: 750,000 USDC
-* Interest rate
-  * Description: Interest rate for bid
-  * Value: percent
-    * Ex: 12%
-* Price
-  * Description: Price for bid
-  * Value: amount and type of asset
-    * Ex: 0.875 USDC
+- Amount
+  - Description: Size of bid
+  - Value: amount and type of asset
+    - Ex: 750,000 USDC
+- Interest rate
+  - Description: Interest rate for bid
+  - Value: percent
+    - Ex: 12%
+- Price
+  - Description: Price for bid
+  - Value: amount and type of asset
+    - Ex: 0.875 USDC
 
 Important detail: Interest rate and price should be one input that can have its units switched between. The interest rate can be calculated from the price and vice versa. Therefore, you only need one of the values to get both.
 
@@ -57,23 +57,23 @@ Important detail: Interest rate and price should be one input that can have its 
 
 Information and button allowing user to claim bonds and funds.
 
-(This functionality could alternatively be handled in [User Orders](user\_orders.md))
+(This functionality could alternatively be handled in [User Orders](user_orders.md))
 
 #### **Information**
 
-* Unfilled bid funds
-  * Description: Funds leftover from unfilled and/or partially filled bids
-  * Value: number and type of asset
-    * Ex: 750,000 USDC
-* Bonds purchased
-  * Description: The number of bonds successfully purchased
-  * Value: number
-    * Ex: 200,000
+- Unfilled bid funds
+  - Description: Funds leftover from unfilled and/or partially filled bids
+  - Value: number and type of asset
+    - Ex: 750,000 USDC
+- Bonds purchased
+  - Description: The number of bonds successfully purchased
+  - Value: number
+    - Ex: 200,000
 
 #### **Inputs**
 
-* Claim funds
-  * Description: Button to claim unfilled bid funds and bonds
+- Claim funds
+  - Description: Button to claim unfilled bid funds and bonds
 
 ## Examples
 
@@ -81,8 +81,8 @@ Information and button allowing user to claim bonds and funds.
 
 **Active state**
 
-![](../../../../../spec/assets/gnosis/bidding\_during.png)
+![](../../../assets/gnosis/bidding_during.png)
 
 **Ended state**
 
-![](../../../../../spec/assets/gnosis/bidding\_post.png)
+![](../../../assets/gnosis/bidding_post.png)

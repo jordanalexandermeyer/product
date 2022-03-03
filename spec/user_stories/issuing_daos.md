@@ -8,12 +8,17 @@
   - What is the risk/reward?
 - Choosing configurations and starting bond auction
 - Handling repayment
+- Determining if Porter is the best platform for them to issue debt on
+  - Will they line up liquidity?
+  - What are the rates?
+  - How much collateral do we need?
 
 **What does the user want to achieve?**
 
 - Stablecoins on their balance sheet
 - Growth for the DAO
-  - Increase DAO revenue
+  - Pay contributors
+  - Host events
   - Acquire other DAOs
 - Clarity on process for DAO
   - This is something new to DeFi so education will be necessary

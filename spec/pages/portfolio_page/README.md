@@ -6,13 +6,10 @@ The purpose of the portfolio page is to display a user's purchased bonds and com
 
 ## Users
 
-* Investor
-  * Past auction participant
+- Investor
+  - Past auction participant
 
 ## User flows
-
-* [Investor converts bonds](../../../../spec/user\_flows/investor\_converts\_bonds.md)
-* [Investor withdraws funds](../../../../spec/user\_flows/investor\_withdraws\_funds.md)
 
 ## User needs
 
@@ -24,10 +21,10 @@ The purpose of the portfolio page is to display a user's purchased bonds and com
 
 Information we have to display
 
-### [Bond list](features/bond\_list.md)
+### [Bond list](features/bond_list.md)
 
 ## Examples
 
 ### Barnbridge
 
-![](../../../../spec/assets/barnbridge/bond\_list.png)
+![](../../../../spec/assets/barnbridge/bond_list.png)

@@ -1,8 +1,8 @@
-# Auction list
+# Bond list
 
 ## Purpose
 
-The purpose of the auction list is to allow a user to discover auctions.
+The purpose of the bond list is to allow a user to discover bonds.
 
 ## Implementation
 
@@ -12,13 +12,13 @@ Lists will be implemented as a table.
 
 #### **Issuer**
 
-- Description: This is the creator of the auction and issuer of debt
+- Description: This is the issuer of the bond
 - Value: image and name of org
   - Ex: 🦄 Uniswap
 
-#### **Offering size**
+#### **Supply**
 
-- Description: This is the amount of bonds the issuer is selling
+- Description: This is the amount of bonds issued
 - Value: amount
   - Ex: 50,000,000
 
@@ -28,21 +28,12 @@ Lists will be implemented as a table.
 - Value: date time
   - Ex: 23 AUG 2022
 
-#### **Auction status**
+#### **Status**
 
-- Description: The current status of the auction
-- Value: Depends on auction state
-  - Examples:
-    - Active: Ending in 1.2 days
-    - Ended: Ended 23 days ago
-
-#### **Interest rate**
-
-- Description: Depends on auction state
-  - Active: The interest rate that would be used if the auction were to end now
-  - Ended: The interest rate that was set in the auction
-- Value: percent
-  - Ex: 12%
+- Description: What status is the bond?
+- Value: enum
+  - Active
+  - Matured
 
 #### **Type**
 

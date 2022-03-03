@@ -5,14 +5,10 @@
 - Understanding costs
   - Are there any fees involved with purchasing bonds?
 - Underwriting risk
-  - Reading prospectus
-    - What is the DAO using the money for?
-    - What are all the details of the bond?
   - Learning about DAO business model
   - Looking over DAO financials
   - Modeling downside risk
-    - What happens if a default occurs?
-    - How much will be recovered in the case of a default?
+    - How much will be recovered if collateral value drops?
 - Bidding on bonds
   - Submitting interest rate they want to be compensated with
   - Submitting volume of bid

@@ -16,7 +16,7 @@ The purpose of the actions panel is to allow users to convert their bonds into c
     - No default
       - Users can withdraw principle + interest in borrowed asset after maturity
     - Default
-      - Users can withdraw principle + interest + fee in borrowed asset and collateral after maturity
+      - Users can withdraw any payments made in borrowed asset and collateral after maturity
 
 ## Implementation
 

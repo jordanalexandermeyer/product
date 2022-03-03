@@ -10,10 +10,11 @@ Lists will be implemented as a table. Each bond will link to its corresponding [
 
 ### Headers
 
-#### Bond name
+#### Issuer
 
-- Description: The name of the bond token
-- Value: UNISWAP CONVERT (UNI) 07AUG2022 (USDC)
+- Description: This is the issuer of the bond
+- Value: image and name of org
+  - Ex: 🦄 Uniswap
 
 #### **Amount**
 
@@ -21,19 +22,26 @@ Lists will be implemented as a table. Each bond will link to its corresponding [
 - Value: number
   - Ex: 10,000,000
 
-#### **Value of convertible asset (if convertible)**
+#### **Maturity date**
 
-- Description: The value of the convertible asset
-- Value: 6,000,000 USDC
-  - Ex: 6,000,000 USDC
+- Description: When does the bond mature?
+- Value: date
+  - Ex: 23 Aug 2022
 
 #### **Status**
 
 - Description: What status is the bond?
 - Value: enum
-  - Outstanding
+  - Active
   - Matured
-  - In default
+
+#### **Type**
+
+- Description: Product type
+- Value: enum + logo
+  - ↔️ Convert
+  - 🟧 Simple
+  - ♻️ Refi
 
 ## Examples
 

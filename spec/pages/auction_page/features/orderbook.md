@@ -6,13 +6,10 @@ The purpose of the orderbook is to display all the bids submitted during the auc
 
 ## States
 
-* Upcoming
-  * Auction has not started
-  * Empty state
-* Active
-  * Auction is ongoing
-* Ended
-  * Auction has ended
+- Active
+  - Auction is ongoing
+- Ended
+  - Auction has ended
 
 ## Implementation
 
@@ -22,34 +19,34 @@ The orderbook will be a table with headers at the top and each order represented
 
 #### Time
 
-* Description: The time the bid was submitted
-* Value: date and time
-  * Ex: Jan 14, 2022, 12:00 UTC
+- Description: The time the bid was submitted
+- Value: date and time
+  - Ex: Jan 14, 2022, 12:00 UTC
 
 #### Price
 
-* Description: The bond price submitted as part of the bid.
-* Value: amount and type of asset
-  * Ex: 0.875 USDC
+- Description: The bond price submitted as part of the bid.
+- Value: amount and type of asset
+  - Ex: 0.875 USDC
 
 #### Interest rate
 
-* Description: The interest rate submitted as part of the bid.
-* Value: percent
-  * Ex: 13%
+- Description: The interest rate submitted as part of the bid.
+- Value: percent
+  - Ex: 13%
 
 #### Amount
 
-* Description: The size of the bid
-* Value: amount and type of asset
-  * Ex: 750,000 USDC
+- Description: The size of the bid
+- Value: amount and type of asset
+  - Ex: 750,000 USDC
 
 ## Examples
 
 ### Gnosis Auction
 
-![](../../../../../spec/assets/gnosis/order\_book.png)
+![](../../../assets/gnosis/order_book.png)
 
 ### Copper Launch
 
-![](../../../../../spec/assets/copper/order\_book.png)
+![](../../../assets/copper/order_book_graph.png)

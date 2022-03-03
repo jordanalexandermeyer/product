@@ -2,16 +2,7 @@
 
 ## Purpose
 
-The purpose of bond information is to display to the user necessary information regarding the bond offering. Some information displayed will change depending on the current state of the auction while others will always be displayed.
-
-## States
-
-- Upcoming
-  - Auction has not started
-- Active
-  - Auction is ongoing
-- Ended
-  - Auction has ended
+The purpose of bond information is to display to the user necessary information regarding the bond offering.
 
 ## Implementation
 
@@ -19,67 +10,63 @@ The bond information will be displayed toward the bottom of the page in a grid.
 
 ### Information to display
 
-#### Auction description
+#### Bond name and address
 
-- Description: Abridged version of prospectus to give the reader a brief overview of who the issuer is and why they are issuing a bond
-- Value: paragraph
+- Description: The name of the bond token. Next to the name should be a link to the contract on etherscan
+- Value: UNI CONVERT 07AUG2022 (USDC)
 
-#### Prospectus
+#### Supply
 
-- Description: Link to prospectus
-  - Detailed document outlining all aspects of the bond offering
-- Value: link
-  - Ex: [Prospectus](https://www.sec.gov/Archives/edgar/data/320193/000119312513184506/d527270d424b2.htm)
+- Description: This is the amount of bonds issued
+- Value: amount
+  - Ex: 50,000,000
 
-#### Bond Term length
+#### Type
 
-- Description: Amount of time from the issuance event until the bond matures.
-- Value: months
-  - Ex: 12 months
+- Description: Product type
+- Value: enum + logo
+  - ↔️ Convert
+  - 🟧 Simple
+  - ♻️ Refi
+
+#### Maturity date
+
+- Description: Bond maturity date
+- Value: date time
+  - Ex: 23 AUG 2022
 
 #### Bond collateral
 
-- Description: Type and amount of asset being provided as collateral for bond issuance.
-- Value: number and type of asset
-  - Ex: 500,000 UNI
+- Description: Type and amount of assets being provided as collateral for bond issuance.
+- Value: numbers and types of asset
+  - Ex: 500,000 UNI, 200,000 RPL, 724,000 BAYC
 
-#### Collateral contract address
+#### Current token prices
 
-- Description: Contract address of collateral asset
-- Value: address
-  - Ex: 0x...
+- Description: The current prices of the assets provided as collateral in terms of the borrowed asset
+- Value: numbers and types of asset
+  - Ex: UNI 25.93 USDC, RPL 12.32 USDC, BAYC 1.02 USDC
+
+#### Bond collateral value
+
+- Description: The current value of the collateral in terms of the borrowed asset. These numbers come from multiplying bond collateral by current token prices
+- Value: numbers and types of asset
+  - 12,500,000 USDC, RPL 2,500,000 USDC, BAYC 750,000 USDC
 
 #### Current collateralization ratio
 
-- Description: Calculated by dividing value of collateral offered by total borrow amount.
+- Description: Calculated by dividing value of collateral offered by maturity value of bonds issued.
 - Value: percent
   - Ex: 50%
-
-#### Convertibility
-
-- Description: Whether or not the bonds are redeemable for a portion of the collateral tokens
-- Value: boolean
 
 #### Conversion ratio
 
 - Description: The amount of collateral asset each bond is convertible into
-- Value: number and type of asset
-  - Ex: 0.01 UNI/bond
-
-#### Breakeven token price of convertibility
-
-- Description: The price a token has to increase to in order for bond redemption to be profitable at maturity
-- Value: number and type of asset
-  - Ex: 75 USDC
-
-#### Current token price
-
-- Description: The current price of the asset provided as collateral in terms of the borrowed asset
-- Value: number and type of asset
-  - Ex: 25 USDC
+- Value: numbers and types of asset
+  - Ex: 0.01 UNI, 0.2 RPL, 0.3 BAYC
 
 ## Example
 
 ### Copper Launch
 
-![](../../../../../spec/assets/copper/bond_details.png)
+![](../../../assets/copper/bond_details.png)

@@ -6,13 +6,13 @@ The purpose of the bond page is to enable the user to learn about and manage the
 
 ## Users
 
-* Investor
-  * Past auction participant
+- Investor
+  - Past auction participant
 
 ## User flows
 
-* [Investor converts bonds](../../../../spec/user\_flows/investor\_converts\_bonds.md)
-* [Investor withdraws funds](../../../../spec/user\_flows/investor\_withdraws\_funds.md)
+- [Investor converts bonds](../../../../spec/user_flows/investor_converts_bonds.md)
+- [Investor withdraws funds](../../../../spec/user_flows/investor_withdraws_funds.md)
 
 ## User needs
 
@@ -25,18 +25,18 @@ The purpose of the bond page is to enable the user to learn about and manage the
 
 ## Features
 
-### [Bond graph](features/bond\_graph.md)
+### [Bond graph](features/bond_graph.md)
 
-### [Bond information](features/bond\_information.md)
+### [Bond information](features/bond_information.md)
 
 ### Link to auction
 
-* Links to this bond's auction
+- Links to this bond's auction
 
-### [Actions panel](features/actions\_panel.md)
+### [Actions panel](features/actions_panel.md)
 
 ## Examples
 
 ### Barnbridge
 
-![](../../../../spec/assets/barnbridge/bond\_page.png)
+![](../../../../spec/assets/barnbridge/bond_page.png)

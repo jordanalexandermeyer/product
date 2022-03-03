@@ -6,8 +6,6 @@ The purpose of the orderbook graph is to visually communicate the state of the a
 
 ## States
 
-- Upcoming
-  - Auction has not started
 - Active
   - Auction is ongoing
 - Ended
@@ -39,8 +37,9 @@ The orderbook graph will be a graph with each line representing a different piec
 
 ### Gnosis Auction
 
-![](../../../../../spec/assets/gnosis/order_book_graph.png)
+![](../../../assets/gnosis/order_book_graph.png)
 
 ### Microsoft Excel
 
-![](../../../../../spec/assets/porter/graph_fully_funded.png) ![](../../../../../spec/assets/porter/graph_partially_funded.png)
+![](../../../assets/porter/graph_fully_funded.png)
+![](../../../assets/porter/graph_partially_funded.png)

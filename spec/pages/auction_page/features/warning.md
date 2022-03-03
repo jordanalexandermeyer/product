@@ -6,13 +6,13 @@ The purpose of the warning is to alert investors of the large amount of risk the
 
 ## States
 
-* Upcoming
-  * Auction has not started
-* Active
-  * Auction is ongoing
-* Ended
-  * Auction has ended
-  * (Does not appear in this state)
+- Upcoming
+  - Auction has not started
+- Active
+  - Auction is ongoing
+- Ended
+  - Auction has ended
+  - (Does not appear in this state)
 
 ## Implementation
 
@@ -22,4 +22,4 @@ The warning will display a paragraph of text and will be dismissable by a button
 
 ### Copper Launch
 
-![](../../../../../spec/assets/copper/warning.png)
+![](../../../assets/copper/warning.png)

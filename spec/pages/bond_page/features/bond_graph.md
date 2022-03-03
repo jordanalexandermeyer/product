@@ -12,24 +12,20 @@ The pricing graph will be a graph with each line representing a different piece 
 
 The values are for the whole bond issuance, not just the user's bonds. The y-axis is the borrowed currency and the x-axis is time.
 
-#### Bond value
+#### Amount owed
 
-* Description: This line shows the estimated value of the bond. It's a straight line starting at the borrow amount and ending at the par value.
+- Description: This line shows the number of bonds issued
 
 #### Collateral value
 
-* Description: This line shows the value of the collateral
+- Description: This line shows the value of the collateral
 
 #### Convertible collateral value
 
-* Description: This line shows the convertible collateral value
-
-#### Bond backing
-
-* Description: This line shows the collateral value plus the repaid principle + interest
+- Description: This line shows the convertible collateral value
 
 ## Examples
 
 ### Barnbridge
 
-![](../../../../../spec/assets/barnbridge/bond\_graph.png) ![](../../../../../spec/assets/barnbridge/bond\_graph\_large.png)
+![](../../../assets/barnbridge/bond_graph.png) ![](../../../assets/barnbridge/bond_graph_large.png)

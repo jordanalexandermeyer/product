@@ -6,8 +6,6 @@ The purpose of auction information is to display to the user necessary informati
 
 ## States
 
-- Upcoming
-  - Auction has not started
 - Active
   - Auction is ongoing
 - Ended
@@ -19,50 +17,37 @@ The auction information will be displayed at the top of the page in a grid.
 
 ### Information to display
 
-#### Issuer
+#### **Issuer**
 
-- Description: The name of the issuing organization provided by auction creator
-- Value: string
-  - Ex: Uniswap
+- Description: This is the creator of the auction and issuer of debt
+- Value: image and name of org
+  - Ex: 🦄 Uniswap
 
 #### Status
 
-- Description: Current status of the auction
-- Value
-  - Enum
-    - Upcoming
+- Description: The current status of the auction
+- Value: Depends on auction state
+  - Examples:
     - Active
     - Ended
 
-#### Duration
+#### Start date
 
-- Description: Scheduled length of the auction
-- Value: days
-  - Ex: 7 days
+- Description: start time of auction
+- Value: datetime
+  - Ex: 2022-02-08 13:00 UTC
 
-#### Starts in (Upcoming only)
+#### End date
 
-- Description: Time until auction starts
-- Value: days and hours
-  - Ex: 7 days, 3 hours
+- Description: end time of auction
+- Value: datetime
+  - Ex: 2022-02-08 13:00 UTC
 
-#### Ends in (Active only)
+#### **Offering size**
 
-- Description: Time until auction ends
-- Value: days:hours:minutes:seconds
-  - Ex: 1: 03: 20: 58
-
-#### Ended (Ended only)
-
-- Description: Date when auction ended
-- Value: date
-  - Ex: Jan 21, 2022
-
-#### Maximum issue size
-
-- Description: Maximum amount of bonds DAO will sell
-- Value: amount and type of asset
-  - Ex: 50,000,000 UNISWAP CONVERT (UNI) 07AUG2022 (USDC)
+- Description: This is the amount of bonds the issuer is selling
+- Value: amount
+  - Ex: 50,000,000
 
 #### Total bid volume
 
@@ -70,7 +55,7 @@ The auction information will be displayed at the top of the page in a grid.
 - Value: amount and type of asset
   - Ex: 75,000,000 USDC
 
-#### Minimum funding threshold/Minimum issue size
+#### Minimum funding threshold
 
 - Description: Bid volume required for auction to settle
 - Value: amount and type of asset
