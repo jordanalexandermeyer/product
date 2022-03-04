@@ -15,19 +15,19 @@
 
 2\. User clicks "create auction" call to action
 
-3\. User navigates to [auction creation page](../../pages/auction_creation_pgae)
+3\. User navigates to [auction creation page](../../pages/offering_creation_page)
 
 ![](../../assets/copper/auction_creation_page.png)
 
-4\. User enters [configuration for bond](../../pages/auction_creation_pgae/features/bond_config.md) and clicks "next"
+4\. User enters [configuration for bond](../../pages/offering_creation_page/features/bond_config.md) and clicks "next"
 
-5\. User enters [configuration for auction](../../pages/auction_creation_pgae/features/auction_config.md) and clicks "next"
+5\. User enters [configuration for auction](../../pages/offering_creation_page/features/auction_config.md) and clicks "next"
 
-6\. User reviews auction details on the [review summary page](../../pages/auction_creation_pgae/features/review_summary.md)
+6\. User reviews auction details on the [review summary page](../../pages/offering_creation_page/features/review_summary.md)
 
 ![](../../assets/copper/auction_summary.png)
 
-7\. User creates auction on the [create auction page](../../pages/auction_creation_pgae)
+7\. User creates auction on the [create auction page](../../pages/offering_creation_page)
 
 ![](../../assets/copper/create_auction.png)
 
