@@ -85,11 +85,12 @@ Sub steps are shown in the wizard
 **display**
 
 - Collateral tokens
-
   - If convert, show convertibility as well
-    ![](../../../assets/balancer/collateral_summary.png)
+  - ![](../../../assets/balancer/collateral_summary.png)
+- Description
+  - Allows user to write a paragraph about the offering
 
-- Summary
+* Summary
   - Symbol
   - Name
   - Product type
