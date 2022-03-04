@@ -1,6 +1,7 @@
 # User flows
 
-- [Issuer starts auction](issuers/start_auction.md)
+- [Issuer starts offering](issuers/start_offering.md)
+- [User creates product](issuers/create_product.md)
 - [Investor participates in auction](investors/participate_in_auction.md)
 - [Investor navigates to auction](investors/navigate_to_offering.md)
 - [Investor buys bonds on secondary](investors/purchase_bond_on_secondary.md)
