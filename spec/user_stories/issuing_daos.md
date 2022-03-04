@@ -6,12 +6,14 @@
   - What will the DAO use the money for?
   - Is a bond the best way to raise the money?
   - What is the risk/reward?
-- Choosing configurations and starting bond auction
-- Handling repayment
 - Determining if Porter is the best platform for them to issue debt on
   - Will they line up liquidity?
   - What are the rates?
   - How much collateral do we need?
+- Thinking about the future
+  - How will this loan be refinanced?
+  - How can we repay the loan?
+  - What will we use the loan for?
 
 **What does the user want to achieve?**
 

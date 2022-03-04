@@ -9,25 +9,25 @@
 
 ## User flow
 
-1. User starts on the [auction discovery page](../../pages/auction_discovery_page)
+1. User starts on the [auction discovery page](../../pages/offering_discovery_page)
 
 ![](../../assets/copper/auction_discovery_page.png)
 
 2\. User clicks "create auction" call to action
 
-3\. User navigates to [auction creation page](../../pages/create_auction_page)
+3\. User navigates to [auction creation page](../../pages/sell_product_page)
 
 ![](../../assets/copper/auction_creation_page.png)
 
-4\. User enters [configuration for bond](../../pages/create_auction_page/features/bond_config.md) and clicks "next"
+4\. User enters [configuration for bond](../../pages/sell_product_page/features/bond_config.md) and clicks "next"
 
-5\. User enters [configuration for auction](../../pages/create_auction_page/features/auction_config.md) and clicks "next"
+5\. User enters [configuration for auction](../../pages/sell_product_page/features/auction_config.md) and clicks "next"
 
-6\. User reviews auction details on the [review summary page](../../pages/create_auction_page/features/review_summary.md)
+6\. User reviews auction details on the [review summary page](../../pages/sell_product_page/features/review_summary.md)
 
 ![](../../assets/copper/auction_summary.png)
 
-7\. User creates auction on the [create auction page](../../pages/create_auction_page)
+7\. User creates auction on the [create auction page](../../pages/sell_product_page)
 
 ![](../../assets/copper/create_auction.png)
 

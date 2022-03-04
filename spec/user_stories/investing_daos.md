@@ -2,13 +2,10 @@
 
 **What is the user doing?**
 
-- Understanding costs
-  - Are there any fees involved with purchasing bonds?
-- Underwriting risk
-  - Learning about DAO business model
-  - Looking over DAO financials
-  - Modeling downside risk
-    - How much will be recovered if collateral value drops?
+- Underwriting
+  - What is my downside risk?
+  - What is my upside?
+  - How should I price this asset?
 - Bidding on bonds
   - Submitting interest rate they want to be compensated with
   - Submitting volume of bid
@@ -29,4 +26,4 @@
 - They want to generate a return using the assets on their balance sheet
 - They want to diversify their treasury
 - They want more usage out of their stablecoin (if stablecoin issuer)
-- Supporting other DAOs can help a DAO gain allegience to their defi mafia
+- Supporting other DAOs can create partnerships
