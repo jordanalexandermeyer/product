@@ -10,7 +10,7 @@ The purpose of the bond discovery page is to allow users to discover bonds.
 
 ## User flows
 
-[Investor purchases bonds on secondary](../../user_flows/investors/purchase_bond_on_secondary.md)
+[Investor purchases bonds on secondary](../../user_flows/investors/purchase_product_on_secondary.md)
 
 ## User needs
 

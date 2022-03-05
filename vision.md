@@ -5,25 +5,24 @@
 **Why does our product exist?**
 
 - DAOs want to borrow money to fund development and fuel growth
-- Reduces cost of capital
-- Allows DAOs to preserve control of their governance
+- Currently, there are many DAOs that don't have access to credit
 
 **What does our product do better than others in the same space?**
 
 Issuers
 
-- Bespoke solution for each issuer
-- Increased collateral decreases rates
-- Convertibility decreases rates
-- Allows DAOs with longer tail assets to borrow against them
 - Fixed rate
+- No liquidation risk
+- Bespoke solution for each issuer
+- Convertibility decreases rates
+- Refinancing
 
 Investors
 
-- Bonds are tradable
 - Fixed rate
+- Equity upside
 - Can use bonds as collateral
-- Provides equity upside
+- Bonds are tradable
 
 **What are other players in the space doing?**
 
@@ -32,20 +31,23 @@ Investors
 
 **What does our team think of our product?**
 
-- Excited about what we are building
-- Excited about the good we can do for the world by helping DAOs grow
+- Energized by what we are building and who we are building with
+- Excited by the good we are doing for the world by helping DAOs grow
 
 **What are the market opportunities over the next year? Three years? Five years?**
 
 - Bond issuance
-- Credit rating
 - Bond trading
+- Credit rating
 - Credit default swaps
 
 **What are the most critical challenges we anticipate facing in the next few years?**
 
 - Setting up the marketplace
   - Bringing DAOs and investors to the platform
+- Under-collateralized lending
+  - There is no bankruptcy process for DAOs
+  - There is no obvious way to force repayment
 
 ## Distill
 

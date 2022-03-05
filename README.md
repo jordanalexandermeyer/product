@@ -1,8 +1,8 @@
-# About
-
-## Introduction
+# Product
 
 The product repository is for anything related to product.
 
 - [Vision](vision.md)
-- [Product spec](spec/)
+- [User stories](spec/user_stories)
+- [User flows](spec/user_flows)
+- [Pages](spec/pages)

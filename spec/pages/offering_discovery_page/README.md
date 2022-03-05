@@ -9,7 +9,7 @@ The purpose of the offering discovery page is to allow users to discover new pro
 - Investor
   - Potential offering participant
 - Issuer
-  - Offering creator/manager
+  - Offering creator
 
 ## User flows
 

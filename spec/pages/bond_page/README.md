@@ -2,17 +2,23 @@
 
 ## Purpose
 
-The purpose of the bond page is to enable the user to learn about and manage their bonds, including redeeming them at maturity or converting them into collateral.
+The purpose of the product page is to enable the user to learn about, manage, and trade products.
 
 ## Users
 
 - Investor
-  - Past auction participant
+  - Discover products
+  - Trade product
+  - Manage owned product
+- Issuer
+  - Manage issued product
 
 ## User flows
 
 - [Investor converts bonds](../../../../spec/user_flows/investor_converts_bonds.md)
 - [Investor withdraws funds](../../../../spec/user_flows/investor_withdraws_funds.md)
+- Issuer repays debt
+- Issuer withdraws collateral
 
 ## User needs
 
@@ -28,10 +34,6 @@ The purpose of the bond page is to enable the user to learn about and manage the
 ### [Bond graph](features/bond_graph.md)
 
 ### [Bond information](features/bond_information.md)
-
-### Link to auction
-
-- Links to this bond's auction
 
 ### [Actions panel](features/actions_panel.md)
 

@@ -11,23 +11,18 @@
   - What are the rates?
   - How much collateral do we need?
 - Thinking about the future
-  - How will this loan be refinanced?
-  - How can we repay the loan?
-  - What will we use the loan for?
+  - How will this loan be refinanced or repaid?
 
 **What does the user want to achieve?**
 
 - Stablecoins on their balance sheet
-- Growth for the DAO
+- Finance DAO operations
   - Pay contributors
   - Host events
+- Finance DAO growth
   - Acquire other DAOs
-- Clarity on process for DAO
-  - This is something new to DeFi so education will be necessary
+  - Dogfooding
 
 **Why do they want to achieve this?**
 
-- They want to attract the best talent which requires a portion of their compensation in stablecoins
-- DAO growth creates value for themselves, every DAO member, and the DAO ecosystem
-- They need to be able to communicate the upsides, downsides, and process to the community
-  - They need buy in from the community
+- Attracting talent requires compensation in stablecoins

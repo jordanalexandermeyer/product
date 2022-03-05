@@ -11,7 +11,7 @@ The page is implemented as a wizard with a main panel and sidebar displaying whe
 ## Users
 
 - Issuer
-  - Bond creator/manager
+  - Product creator
 
 ## User flows
 
@@ -30,6 +30,7 @@ Wizard should not show until a product type is selected
 2. Go through product wizard
    1. [Convert](features/convert/convert_steps.md)
    2. [Simple](features/simple/simple_steps.md)
+   3. Refi (not available yet)
 
 ## Examples
 

@@ -1,20 +1,28 @@
-# Bond list
+# Product list
 
 ## Purpose
 
-The purpose of the bond list is to allow a user to view their owned bonds and some important details about those bonds.
+The purpose of the product list is to allow a user to view their owned products and some important details about those products.
 
 ## Implementation
 
-Lists will be implemented as a table. Each bond will link to its corresponding [bond page](../../bond_page/README.md).
+Lists will be implemented as a table. Each product will link to its corresponding [product page](../../bond_page/README.md).
 
 ### Headers
 
 #### Issuer
 
-- Description: This is the issuer of the bond
+- Description: This is the issuer of the product
 - Value: image and name of org
   - Ex: 🦄 Uniswap
+
+#### **Type**
+
+- Description: Product type
+- Value: enum + logo
+  - ↔️ Convert
+  - 🟧 Simple
+  - ♻️ Refi
 
 #### **Amount**
 
@@ -34,14 +42,6 @@ Lists will be implemented as a table. Each bond will link to its corresponding [
 - Value: enum
   - Active
   - Matured
-
-#### **Type**
-
-- Description: Product type
-- Value: enum + logo
-  - ↔️ Convert
-  - 🟧 Simple
-  - ♻️ Refi
 
 ## Examples
 

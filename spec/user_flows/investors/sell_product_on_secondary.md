@@ -1,12 +1,12 @@
-# Sell bond on secondary market
+# Sell product on secondary market
 
 1. Start on landing page
 2. Click launch app
 3. App loads on "Offerings" tab
 4. Click "Portfolio" tab
 5. Navigates to portfolio tab where user can see their positions
-6. User clicks the bond they would like to sell
-7. User navigates to the bond page
+6. User clicks the product they would like to sell
+7. User navigates to the product page
 
 Option 1: Create Buy Order
 

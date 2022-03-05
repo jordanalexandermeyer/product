@@ -1,4 +1,4 @@
-# Purchase bond from offering
+# Purchase product from offering
 
 1. Start on landing page
 2. Click launch app

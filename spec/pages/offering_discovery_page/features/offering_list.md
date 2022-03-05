@@ -12,7 +12,7 @@ Lists will be implemented as a table or a bunch of panels. We can allow users to
 
 #### **Issuer**
 
-- Description: This is the creator of the offering and issuer of debt
+- Description: This is the creator of the offering and issuer of product
 - Value: image and name of org
   - Ex: 🦄 Uniswap
 
