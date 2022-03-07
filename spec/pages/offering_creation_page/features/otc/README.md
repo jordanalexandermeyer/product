@@ -1,4 +1,4 @@
-# OTC steps
+# OTC offering creation
 
 ## Purpose
 

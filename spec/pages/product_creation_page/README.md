@@ -28,8 +28,8 @@ Wizard should not show until a product type is selected
 
 1. [Choose product type](features/product_type.md)
 2. Go through product wizard
-   1. [Convert](features/convert/convert_steps.md)
-   2. [Simple](features/simple/simple_steps.md)
+   1. [Convert](features/convert/README.md)
+   2. [Simple](features/simple/README.md)
    3. Refi (not available yet)
 
 ## Examples

@@ -1,8 +1,8 @@
-# Bond list
+# Product list
 
 ## Purpose
 
-The purpose of the bond list is to allow a user to discover bonds.
+The purpose of the product list is to allow a user to discover products.
 
 ## Implementation
 
@@ -10,11 +10,11 @@ Lists will be implemented as a table.
 
 ### Headers
 
-#### **Issuer**
+#### **Name**
 
-- Description: This is the issuer of the bond
-- Value: image and name of org
-  - Ex: 🦄 Uniswap
+- Description: This is the name of the bond
+- Value: image and name of bond
+  - Ex: 🦄 Uniswap Convert
 
 #### **Supply**
 

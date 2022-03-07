@@ -10,7 +10,7 @@
 
 Option 1: Create Buy Order
 
-8. There is a panel where user can create a sell order
+8. There is a [trade panel](../../pages/product_page/simple/features/trade_panel.md) where user can create a sell order
 9. User enters amount they wish to sell and price they will sell for
 10. They click "submit sell order"
 11. Sell order is added to orderbook

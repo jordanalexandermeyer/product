@@ -1,12 +1,12 @@
-# Bond information
+# Convert information
 
 ## Purpose
 
-The purpose of bond information is to display to the user necessary information regarding the bond.
+The purpose of Convert information is to display to the user necessary information regarding the bond.
 
 ## Implementation
 
-The bond information will be displayed in a panel.
+The Convert information will be displayed in a panel.
 
 ### Information to display
 
@@ -14,20 +14,12 @@ The bond information will be displayed in a panel.
 
 - Description: Product type
 - Value: enum + logo
-  - ↔️ Convert
-  - 🟧 Simple
-  - ♻️ Refi
+  - <> Convert
 
-#### Bond name and address
+#### Convert name and address
 
-- Description: The name of the bond token. Next to the name should be a link to the contract on etherscan
-- Value: UNI CONVERT 07AUG2022 (USDC)
-
-#### Issuer
-
-- Description: This is the creator of the auction and issuer of debt
-- Value: image and name of org
-  - Ex: 🦄 Uniswap
+- Description: The logo and name of the Convert token. Next to the name should be a link to the contract on etherscan
+- Value: 🦄 Uniswap Convert
 
 #### Supply
 
@@ -41,9 +33,9 @@ The bond information will be displayed in a panel.
 - Value: date
   - Ex: Jan 19, 2023
 
-#### Bond collateral
+#### Collateral
 
-- Description: Type and amount of assets being provided as collateral for bond issuance.
+- Description: Type and amount of assets being provided as collateral for issuance. Most often there will only be one type, but we will support multiple types.
 - Value: numbers and types of asset
   - Ex: 500,000 UNI, 200,000 RPL, 724,000 BAYC
 
@@ -53,13 +45,13 @@ The bond information will be displayed in a panel.
 - Value: numbers and types of asset
   - Ex: UNI 25.93 USDC, RPL 12.32 USDC, BAYC 1.02 USDC
 
-#### Bond collateral value
+#### Collateral value
 
 - Description: The current value of the collateral in terms of the borrowed asset. These numbers come from multiplying bond collateral by current token prices
 - Value: numbers and types of asset
   - 12,500,000 USDC, RPL 2,500,000 USDC, BAYC 750,000 USDC
 
-#### Current collateralization ratio
+#### Collateralization ratio
 
 - Description: Calculated by dividing value of collateral offered by bonds issued.
 - Value: percent
@@ -71,7 +63,7 @@ The bond information will be displayed in a panel.
 - Value: numbers and types of asset
   - Ex: 0.01 UNI, 0.2 RPL, 0.3 BAYC
 
-#### Current conversion ratio
+#### Conversion ratio
 
 - Description: Calculated by dividing value of convertible tokens offered by bonds issued.
 - Value: percent

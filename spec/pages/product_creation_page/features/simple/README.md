@@ -1,4 +1,4 @@
-# Simple steps
+# Simple product creation
 
 ## Purpose
 

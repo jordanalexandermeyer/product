@@ -6,33 +6,23 @@ The purpose of the auction page is to host the bond auction.
 
 ## States
 
-* Upcoming
-  * Auction has not started
-* Active
-  * Auction is ongoing
-* Ended
-  * Auction has ended
+- Active
+  - Auction is ongoing
+- Ended
+  - Auction has ended
 
 ## Users
 
-* Investor
-  * Potential auction participant
-* Issuer
-  * Auction creator/manager
+- Investor
+  - Potential auction participant
+- Issuer
+  - Auction creator/manager
 
 ## User flows
 
-* [Investor participates in auction](../../user\_flows/participate\_in\_auction.md)
+- [Investor participates in auction](../../user_flows/participate_in_auction.md)
 
 ## User needs
-
-### Upcoming state
-
-| User     | User Wants                                                           | Product Needs                                         |
-| -------- | -------------------------------------------------------------------- | ----------------------------------------------------- |
-| Investor | Wants to determine whether they want to participate in this auction  | Needs information regarding the upcoming bond auction |
-| Issuer   | Wants to view the auction                                            | Needs auction to be viewable before it has started    |
-|          | Wants to cancel the auction if they decide not to go through with it | Needs a management section                            |
 
 ### Active state
 
@@ -61,26 +51,26 @@ The purpose of the auction page is to host the bond auction.
 
 ### [Warning](features/warning.md)
 
-### [Auction information](features/auction\_information.md)
+### [Auction information](features/auction_information.md)
 
-### [Bond information](features/bond\_information.md)
+### [Bond information](features/bond_information.md)
 
-### [Orderbook](features/orderbook\_graph.md)
+### [Orderbook](features/orderbook_graph.md)
 
-### [Orderbook graph](features/orderbook\_graph.md)
+### [Orderbook graph](features/orderbook_graph.md)
 
-### [Order panel](features/order\_panel.md)
+### [Order panel](features/order_panel.md)
 
-### [User orders](features/user\_orders.md)
+### [User orders](features/user_orders.md)
 
-### [Auction management](features/auction\_management.md)
+### [Auction management](features/auction_management.md)
 
 ## Examples
 
 ### Copper Launch
 
-![](../../../../spec/assets/copper/auction\_page.png)
+![](../../../../spec/assets/copper/auction_page.png)
 
 ### Gnosis Auction
 
-![](../../../../spec/assets/gnosis/auction\_page.png)
+![](../../../../spec/assets/gnosis/auction_page.png)

@@ -28,8 +28,8 @@ Wizard should not show until an offering type is selected
 
 1. [Choose offering type](features/offering_type.md)
 2. Go through offering wizard
-   1. [Auction](features/auction/auction_steps.md)
-   2. [OTC](features/otc/otc_steps.md)
+   1. [Auction](features/auction/README.md)
+   2. [OTC](features/otc/README.md)
 
 ## Examples
 

@@ -26,3 +26,4 @@
 **Why do they want to achieve this?**
 
 - Attracting talent requires compensation in stablecoins
+- DAO growth benefits everyone in the DAO

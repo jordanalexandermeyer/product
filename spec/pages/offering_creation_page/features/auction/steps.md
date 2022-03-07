@@ -56,20 +56,6 @@ Sub steps are shown in the wizard
     - If private
       - Signer address
 
-### Order
-
-**inputs**
-
-- Price/Interest rate
-  - Price can be converted to interest rate
-- Minimum order size
-  - Minimum amount of tokens that can be used for an order
-- Access
-  - Public
-  - Private
-    - If private
-      - Signer address
-
 ### Confirm creation
 
 **inputs**
@@ -85,5 +71,4 @@ Sub steps are shown in the wizard
   - Product
   - Offering type
     - Auction
-    - OTC
   - ![](../../../assets/balancer/pool_summary.png)

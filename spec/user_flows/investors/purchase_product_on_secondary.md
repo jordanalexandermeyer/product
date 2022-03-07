@@ -10,7 +10,7 @@
 
 Option 1: Create Buy Order
 
-1. There is a panel where user can create a buy order
+1. There is a [trade panel](../../pages/product_page/simple/features/trade_panel.md) where user can create a buy order
 2. User enters amount they wish to buy and price they will buy for
 3. They click "submit buy order"
 4. Buy order is added to orderbook

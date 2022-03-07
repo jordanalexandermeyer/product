@@ -1,4 +1,4 @@
-# Auction steps
+# Auction offering creation
 
 ## Purpose
 

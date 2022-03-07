@@ -1,8 +1,8 @@
-# Product steps
+# Convert steps
 
 ## Purpose
 
-The purpose of the product steps is to allow the user to supply all the product config details.
+The purpose of the Convert steps is to allow the user to supply all the product config details.
 
 ## Implementation
 
@@ -93,8 +93,8 @@ Sub steps are shown in the wizard
 * Summary
   - Symbol
   - Name
+  - Supply
+  - Maturity date
   - Product type
     - Convert
-    - Simple
-    - Refi
   - ![](../../../assets/balancer/pool_summary.png)

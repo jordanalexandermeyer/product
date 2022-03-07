@@ -12,6 +12,7 @@
 Issuers
 
 - Fixed rate
+- Fixed term
 - No liquidation risk
 - Bespoke solution for each issuer
 - Convertibility decreases rates
@@ -26,7 +27,7 @@ Investors
 
 **What are other players in the space doing?**
 
-- Over-collateralized loans with liquidation risk
+- Over-collateralized loans with liquidation risk and interest rate risk
 - Under-collateralized credit lines
 
 **What does our team think of our product?**
@@ -38,6 +39,7 @@ Investors
 
 - Bond issuance
 - Bond trading
+- Refinancing
 - Credit rating
 - Credit default swaps
 

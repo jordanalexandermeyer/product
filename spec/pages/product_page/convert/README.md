@@ -1,8 +1,8 @@
-# Bond page
+# Convert product page
 
 ## Purpose
 
-The purpose of the product page is to enable the user to learn about, manage, and trade products.
+The purpose of the Convert product page is to enable the user to learn about, manage, and trade Convert products.
 
 ## Users
 
@@ -31,11 +31,15 @@ The purpose of the product page is to enable the user to learn about, manage, an
 
 ## Features
 
-### [Bond graph](features/bond_graph.md)
+### [Convert graph](features/graph.md)
 
-### [Bond information](features/bond_information.md)
+### [Convert information](features/information.md)
 
-### [Actions panel](features/actions_panel.md)
+### [Withdraw panel](features/withdraw_panel.md)
+
+### [Redeem panel](features/redeem_panel.md)
+
+### [Trade panel](features/trade_panel.md)
 
 ## Examples
 
