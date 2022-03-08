@@ -68,4 +68,8 @@ Sub steps are shown in the wizard
   - Product
   - Offering type
     - OTC
-  - ![](../../../assets/balancer/pool_summary.png)
+  - Amount for sale
+  - Start & End date
+  - Price/Interest rate
+  - Minimum order size
+  - Public/Private

@@ -71,4 +71,9 @@ Sub steps are shown in the wizard
   - Product
   - Offering type
     - Auction
-  - ![](../../../assets/balancer/pool_summary.png)
+  - Amount for sale
+  - Start & End date
+  - Minimum price/ Max interest rate
+  - Minimum bid size
+  - Public/Private
+  - Last date to cancel bids
