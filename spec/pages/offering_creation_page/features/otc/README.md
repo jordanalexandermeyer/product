@@ -13,10 +13,10 @@ Sub steps are shown in the wizard
 
 ## Sub steps
 
-### [Select product](../steps.md###Product)
+### [Select product](steps.md###Product)
 
-### [Configure offering](../steps.md###Order)
+### [Configure offering](steps.md###Order)
 
-### [Schedule offering](../steps.md###Schedule)
+### [Schedule offering](steps.md###Schedule)
 
-### [Confirm creation](../steps.md###Confirm-creation)
+### [Confirm creation](steps.md###Confirm-creation)
