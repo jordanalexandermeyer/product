@@ -53,7 +53,7 @@ The purpose of the auction page is to host the bond auction.
 
 ### [Auction information](features/auction_information.md)
 
-### [Bond information](features/bond_information.md)
+### [Bond information](features/product_information.md)
 
 ### [Orderbook](features/orderbook_graph.md)
 

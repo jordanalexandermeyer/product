@@ -22,12 +22,12 @@ The purpose of the Convert product page is to enable the user to learn about, ma
 
 ## User needs
 
-| User     | User Wants                               | Product Needs                                |
-| -------- | ---------------------------------------- | -------------------------------------------- |
-| Investor | To redeem bonds at maturity              | Principle + interest redemption funcionality |
-|          | To redeem bonds for collateral           | Collateral convertibility functionality      |
-|          | To determine profitability of conversion | Display the value of convertible collateral  |
-|          | To determine the value of their bonds    | Display the estimated value of bonds         |
+| User     | User Wants                               | Product Needs                                 |
+| -------- | ---------------------------------------- | --------------------------------------------- |
+| Investor | To redeem bonds at maturity              | Principle + interest redemption functionality |
+|          | To redeem bonds for collateral           | Collateral convertibility functionality       |
+|          | To determine profitability of conversion | Display the value of convertible collateral   |
+|          | To determine the value of their bonds    | Display the estimated value of bonds          |
 
 ## Features
 

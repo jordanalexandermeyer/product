@@ -28,9 +28,10 @@ The redeem panel will have a different implementation and purpose depending on t
   - Value: amount and type of asset
     - Ex: 0.5 UNI
 - Conversion amount
-  - Description: Amount of collateral entered amount of bonds can be convertible to. Calculate this and display it after a user has entered the "amount" input.
+  - Description: Amount of convertible tokens the entered amount of bonds can be convertible to. Calculate this and display it after a user has entered the "amount" input.
   - Value: amount and type of asset
     - Ex: 532 UNI
+    - Add a parantheses with value in borrow token (USDC in this case)
 
 #### Inputs
 

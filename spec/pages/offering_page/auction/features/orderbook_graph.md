@@ -37,9 +37,9 @@ The orderbook graph will be a graph with each line representing a different piec
 
 ### Gnosis Auction
 
-![](../../../assets/gnosis/order_book_graph.png)
+![](../../../../assets/gnosis/order_book_graph.png)
 
 ### Microsoft Excel
 
-![](../../../assets/porter/graph_fully_funded.png)
-![](../../../assets/porter/graph_partially_funded.png)
+![](../../../../assets/porter/graph_fully_funded.png)
+![](../../../../assets/porter/graph_partially_funded.png)

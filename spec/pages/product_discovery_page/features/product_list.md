@@ -10,11 +10,20 @@ Lists will be implemented as a table.
 
 ### Headers
 
-#### **Name**
+#### Issuer
 
-- Description: This is the name of the bond
-- Value: image and name of bond
-  - Ex: 🦄 Uniswap Convert
+- Description: This is the issuer of the product
+- Value: image and name of org and product name as subline
+  - Ex:
+    - Above: 🦄 Uniswap
+    - Below: UNISWAP CONVERT 24AUG2022 USDC
+
+#### **Type**
+
+- Description: Product type
+- Value: enum + logo
+  - ⏩ Convert
+  - ⏹️ Simple
 
 #### **Supply**
 
@@ -34,14 +43,6 @@ Lists will be implemented as a table.
 - Value: enum
   - Active
   - Matured
-
-#### **Type**
-
-- Description: Product type
-- Value: enum + logo
-  - ↔️ Convert
-  - 🟧 Simple
-  - ♻️ Refi
 
 ## Examples
 

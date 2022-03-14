@@ -6,8 +6,6 @@ The purpose of the order panel is to allow users to submit bids to the auction. 
 
 ## States
 
-- Upcoming
-  - Auction has not started
 - Active
   - Auction is ongoing
 - Ended
@@ -16,10 +14,6 @@ The purpose of the order panel is to allow users to submit bids to the auction. 
 ## Implementation
 
 The order panel will have a different implementation and purpose depending on the state of the auction.
-
-### Upcoming
-
-Empty state declaring the auction hasn't started yet.
 
 ### Active
 
@@ -81,8 +75,8 @@ Information and button allowing user to claim bonds and funds.
 
 **Active state**
 
-![](../../../assets/gnosis/bidding_during.png)
+![](../../../../assets/gnosis/bidding_during.png)
 
 **Ended state**
 
-![](../../../assets/gnosis/bidding_post.png)
+![](../../../../assets/gnosis/bidding_post.png)

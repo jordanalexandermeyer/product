@@ -6,8 +6,6 @@ The purpose of the warning is to alert investors of the large amount of risk the
 
 ## States
 
-- Upcoming
-  - Auction has not started
 - Active
   - Auction is ongoing
 - Ended

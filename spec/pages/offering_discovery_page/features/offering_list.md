@@ -32,9 +32,8 @@ Example of how Sushi Miso uses different icons for different types of auctions [
 
 - Description: Product type
 - Value: enum + logo
-  - ↔️ Convert
-  - 🟧 Simple
-  - ♻️ Refi
+  - ⏩ Convert
+  - ⏹️ Simple
 
 Example of how Sushi Miso uses different icons for different product types [here](https://instantmiso.com)
 ![](../../../assets/sushi/product_types.png)

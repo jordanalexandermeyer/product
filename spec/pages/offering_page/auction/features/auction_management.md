@@ -33,4 +33,4 @@ Should only be viewable by the creator of the auction.
 
 ### Copper Launch
 
-![](../../../assets/copper/auction_config.png)
+![](../../../../assets/copper/auction_management.png)

@@ -19,9 +19,11 @@ The auction information will be displayed at the top of the page in a grid.
 
 #### **Issuer**
 
-- Description: This is the creator of the auction and issuer of debt
-- Value: image and name of org
-  - Ex: 🦄 Uniswap
+- Description: This is the issuer of the product
+- Value: image and name of org and product name as subline
+  - Ex:
+    - Above: 🦄 Uniswap
+    - Below: UNISWAP CONVERT 24AUG2022 USDC
 
 #### Status
 
@@ -67,23 +69,23 @@ The auction information will be displayed at the top of the page in a grid.
 - Value: amount and type of asset
 - Ex: 1,000 USDC
 
-#### Current auction interest rate (Active only)
+#### Current auction interest rate/price (Active only)
 
 - Description: The interest rate that would be set if the auction were to end with no more bids being submitted.
-- Value: percent
-  - Ex: 8%
+- Value: percent/price
+  - Ex: 8%/0.92 USDC
 
-#### Clearing auction interest rate (Ended only)
+#### Clearing auction interest rate/price (Ended only)
 
 - Description: The interest rate that was set for the auction.
-- Value: percent
-  - Ex: 8%
+- Value: percent/price
+  - Ex: 8%/ 0.92 USDC
 
-#### Maximum interest rate
+#### Maximum interest rate/Minimum price
 
 - Description: The auction determines interest rate based on supply and demand. This is the maximum interest rate the issuer is willing to pay.
-- Value: percent
-  - Ex: 15%
+- Value: percent/price
+  - Ex: 15%/0.85 USDC
 
 ## Examples
 

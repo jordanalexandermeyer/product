@@ -13,7 +13,7 @@ The purpose of user orders is to display the users orders and allow them to canc
 
 ## Implementation
 
-User orders will be implemented as a table at the bottom of the page with each row representing an order.
+User orders will be implemented as a new tab in the [orderbook](orderbook.md)
 
 ### Headers
 
@@ -56,9 +56,8 @@ User orders will be implemented as a table at the bottom of the page with each r
 
 - Description: Actions user can take to manage orders.
 - Value: buttons
+  - View transaction (etherscan link)
   - Cancel order
-  - Claim funds
-    - Shows if order was previously cancelled
 
 ## Examples
 

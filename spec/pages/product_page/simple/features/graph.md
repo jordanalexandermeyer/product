@@ -10,15 +10,15 @@ The graph will be a graph with each line representing a different piece of prici
 
 ### Lines
 
-The values are for the whole Simple issuance, not just the user's bonds. The y-axis is the borrowed currency and the x-axis is time.
+The values are for one bond. The y-axis is the borrowed currency and the x-axis is time.
 
 #### Amount owed
 
-- Description: This line shows the amount owed
+- Description: This line shows the amount owed. Should be a flat line at a y-axis value of 1
 
 #### Collateral value
 
-- Description: This line shows the value of the collateral
+- Description: This line shows the value of the collateral per bond
 
 #### Price (to be added in the future)
 

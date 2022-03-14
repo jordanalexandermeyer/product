@@ -15,6 +15,8 @@ The purpose of the orderbook is to display all the bids submitted during the auc
 
 The orderbook will be a table with headers at the top and each order represented by a row. Each column will be sortable.
 
+There should be a second tab named "my orders" that allows the user to see their orders. [User orders](user_orders.md)
+
 ### Headers
 
 #### Time
@@ -41,12 +43,22 @@ The orderbook will be a table with headers at the top and each order represented
 - Value: amount and type of asset
   - Ex: 750,000 USDC
 
+#### Actions
+
+- Description: Actions user can take
+- Value: buttons
+  - View transaction (etherscan link)
+
 ## Examples
 
 ### Gnosis Auction
 
-![](../../../assets/gnosis/order_book.png)
+![](../../../../assets/gnosis/order_book.png)
 
 ### Copper Launch
 
-![](../../../assets/copper/order_book_graph.png)
+![](../../../../assets/copper/order_book.png)
+
+### Balancer
+
+![](../../../../assets/balancer/my_investments.png)

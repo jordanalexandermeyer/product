@@ -22,9 +22,8 @@ Lists will be implemented as a table. Each product will link to its correspondin
 
 - Description: Product type
 - Value: enum + logo
-  - ↔️ Convert
-  - 🟧 Simple
-  - ♻️ Refi
+  - ⏩ Convert
+  - ⏹️ Simple
 
 #### **Amount**
 

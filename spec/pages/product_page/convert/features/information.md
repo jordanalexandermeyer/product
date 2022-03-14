@@ -10,16 +10,19 @@ The Convert information will be displayed in a panel.
 
 ### Information to display
 
-#### **Type**
+#### Type
 
 - Description: Product type
 - Value: enum + logo
-  - <> Convert
+  - ⏩ Convert
 
 #### Convert name and address
 
 - Description: The logo and name of the Convert token. Next to the name should be a link to the contract on etherscan
-- Value: 🦄 Uniswap Convert
+- Value: image and name of org and product name as subline
+  - Ex:
+    - Above: 🦄 Uniswap
+    - Below: UNISWAP CONVERT 24AUG2022 USDC
 
 #### Supply
 
@@ -31,15 +34,15 @@ The Convert information will be displayed in a panel.
 
 - Description: Date the bond matures.
 - Value: date
-  - Ex: Jan 19, 2023
+  - Ex: 24 AUG 2022 00:00 UTC
 
-#### Collateral
+#### Collateral tokens
 
-- Description: Type and amount of asset being provided as collateral for issuance
+- Description: Type and amount of asset being provided as collateral per bond
 - Value: numbers and types of asset
-  - Ex: 500,000 UNI
+  - Ex: 0.05 UNI
 
-#### Current token prices
+#### Current token price
 
 - Description: The current price of the asset provided as collateral in terms of the borrowed asset
 - Value: numbers and types of asset
@@ -49,7 +52,7 @@ The Convert information will be displayed in a panel.
 
 - Description: The current value of the collateral in terms of the borrowed asset. This number comes from multiplying bond collateral by current token price
 - Value: numbers and types of asset
-  - 12,500,000 USDC
+  - 3 USDC
 
 #### Collateralization ratio
 
