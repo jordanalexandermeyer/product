@@ -29,7 +29,7 @@ The withdraw panel will be implemented as a panel.
 - Balance
   - Description: Amount of Simple tokens in connected wallet
   - Value: number
-    - Ex: 750,000 UNISWAP SIMPLE 07AUG2022 (USDC)
+    - Ex: 750,000 UNISWAP SIMPLE 07AUG2022 USDC
 - Withdraw amount
   - Description: Amount of borrowed asset and collateral available to withdraw
   - Value: amount and type of assets
@@ -43,4 +43,4 @@ The withdraw panel will be implemented as a panel.
 
 ### Uniswap
 
-![](../../../assets/uniswap/convert.png)
+![](../../../../assets/uniswap/convert.png)

@@ -13,8 +13,10 @@ Lists will be implemented as a table. Each product will link to its correspondin
 #### Issuer
 
 - Description: This is the issuer of the product
-- Value: image and name of org
-  - Ex: 🦄 Uniswap
+- Value: image and name of org and product name as subline
+  - Ex:
+    - Above: 🦄 Uniswap
+    - Below: UNISWAP CONVERT 24AUG2022 USDC
 
 #### **Type**
 

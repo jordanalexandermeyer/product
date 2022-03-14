@@ -22,7 +22,7 @@ The redeem panel will have a different implementation and purpose depending on t
 - Balance
   - Description: Amount of bonds in connected wallet
   - Value: number
-    - Ex: 750,000 UNISWAP CONVERT (UNI) 07AUG2022 (USDC)
+    - Ex: 750,000 UNISWAP CONVERT 07AUG2022 USDC
 - Conversion ratio
   - Description: Amount of collateral each bond is convertible to
   - Value: amount and type of asset
@@ -37,7 +37,7 @@ The redeem panel will have a different implementation and purpose depending on t
 - Amount
   - Description: amount of bonds to convert to collateral asset
   - Value: amount and type of asset
-    - Ex: 750,000 UNISWAP CONVERT (UNI) 07AUG2022 (USDC)
+    - Ex: 750,000 UNISWAP CONVERT 07AUG2022 USDC
 - Convert button
 
 ### After maturity
@@ -48,4 +48,4 @@ The redeem panel will have a different implementation and purpose depending on t
 
 ### Uniswap
 
-![](../../../assets/uniswap/convert.png)
+![](../../../../assets/uniswap/convert.png)

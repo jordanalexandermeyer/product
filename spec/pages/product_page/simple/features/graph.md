@@ -28,4 +28,5 @@ The values are for the whole Simple issuance, not just the user's bonds. The y-a
 
 ### Barnbridge
 
-![](../../../assets/barnbridge/bond_graph.png) ![](../../../assets/barnbridge/bond_graph_large.png)
+![](../../../../assets/barnbridge/bond_graph_large.png)
+![](../../../../assets/barnbridge/bond_graph.png)

@@ -30,8 +30,8 @@ Sub steps are shown in the wizard
 
 **inputs**
 
-- Collateral token(s)
-  - These are the tokens that will be used as collateral
+- Collateral token
+  - This is the token that will be used as collateral
   - Should allow users to search tokens
     ![](../../../assets/balancer/token_search.png)
   - Can enter a contract address
@@ -43,17 +43,10 @@ Sub steps are shown in the wizard
 - Collateral token ticker
 - Collateral token balance
 - Collateral token price
-  - ![](../../../assets/balancer/token_prices.png)
-  - Need ability to enter token price if we can't get one from Coingecko
-  - ![](../../../assets/balancer/enter_price.png)
 - Current value of collateral
-- Collateral summary
-  - ![](../../../assets/balancer/pool_summary.png)
-  - Total collateral value
-  - Breakdown of how much each token represents of collateral value
 
 **example**
-![](../../../assets/balancer/pool_creation_tokens.png)
+![](../../../../assets/balancer/pool_creation_tokens.png)
 
 ### Confirm creation
 
@@ -61,7 +54,7 @@ Sub steps are shown in the wizard
 
 - Approve button
   - ![](../../../assets/balancer/approve_steps.png)
-  - Need a step to approve every collateral asset
+  - Need a step to approve the collateral asset
 
 **display**
 

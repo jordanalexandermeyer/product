@@ -35,21 +35,21 @@ The Convert information will be displayed in a panel.
 
 #### Collateral
 
-- Description: Type and amount of assets being provided as collateral for issuance. Most often there will only be one type, but we will support multiple types.
+- Description: Type and amount of asset being provided as collateral for issuance
 - Value: numbers and types of asset
-  - Ex: 500,000 UNI, 200,000 RPL, 724,000 BAYC
+  - Ex: 500,000 UNI
 
 #### Current token prices
 
-- Description: The current prices of the assets provided as collateral in terms of the borrowed asset
+- Description: The current price of the asset provided as collateral in terms of the borrowed asset
 - Value: numbers and types of asset
-  - Ex: UNI 25.93 USDC, RPL 12.32 USDC, BAYC 1.02 USDC
+  - Ex: UNI - 25.93 USDC
 
 #### Collateral value
 
-- Description: The current value of the collateral in terms of the borrowed asset. These numbers come from multiplying bond collateral by current token prices
+- Description: The current value of the collateral in terms of the borrowed asset. This number comes from multiplying bond collateral by current token price
 - Value: numbers and types of asset
-  - 12,500,000 USDC, RPL 2,500,000 USDC, BAYC 750,000 USDC
+  - 12,500,000 USDC
 
 #### Collateralization ratio
 
@@ -61,4 +61,5 @@ The Convert information will be displayed in a panel.
 
 ### Barnbridge
 
-![](../../../assets/barnbridge/bond_information_large.png) ![](../../../assets/barnbridge/bond_information.png)
+![](../../../../assets/barnbridge/bond_information.png)
+![](../../../../assets/barnbridge/bond_information_large.png)

@@ -12,9 +12,11 @@ Lists will be implemented as a table or a bunch of panels. We can allow users to
 
 #### **Issuer**
 
-- Description: This is the creator of the offering and issuer of product
-- Value: image and name of org
-  - Ex: 🦄 Uniswap
+- Description: This is the issuer of the product
+- Value: image and name of org and product name as subline
+  - Ex:
+    - Above: 🦄 Uniswap
+    - Below: UNISWAP CONVERT 24AUG2022 USDC
 
 #### **Offering type**
 
