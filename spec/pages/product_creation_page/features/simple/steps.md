@@ -9,7 +9,7 @@ The purpose of the Simple steps is to allow the user to supply all the product c
 Multiple sub steps are listed here that can be used in different product wizards.
 
 Sub steps are shown in the wizard
-![](../../../assets/balancer/wizard_steps.png)
+![](../../../../assets/balancer/wizard_steps.png)
 
 ## Sub steps
 
@@ -53,14 +53,14 @@ Sub steps are shown in the wizard
 **inputs**
 
 - Approve button
-  - ![](../../../assets/balancer/approve_steps.png)
+  - ![](../../../../assets/balancer/approve_steps.png)
   - Need a step to approve the collateral asset
 
 **display**
 
 - Collateral tokens
   - If convert, show convertibility as well
-  - ![](../../../assets/balancer/collateral_summary.png)
+  - ![](../../../../assets/balancer/collateral_summary.png)
 - Description
   - Allows user to write a paragraph about the offering
 
@@ -71,4 +71,3 @@ Sub steps are shown in the wizard
   - Maturity date
   - Product type
     - Simple
-  - ![](../../../assets/balancer/pool_summary.png)

@@ -16,4 +16,4 @@ The trade panel will be implemented as a panel.
 
 ### Uniswap
 
-![](../../../assets/uniswap/convert.png)
+![](../../../../assets/uniswap/convert.png)

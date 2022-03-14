@@ -27,4 +27,4 @@ Information we have to display
 
 ### Barnbridge
 
-![](../../../../spec/assets/barnbridge/bond_list.png)
+![](../../assets/barnbridge/bond_list.png)

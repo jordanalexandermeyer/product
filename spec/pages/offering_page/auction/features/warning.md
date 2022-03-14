@@ -20,4 +20,4 @@ The warning will display a paragraph of text and will be dismissable by a button
 
 ### Copper Launch
 
-![](../../../assets/copper/warning.png)
+![](../../../../assets/copper/warning.png)

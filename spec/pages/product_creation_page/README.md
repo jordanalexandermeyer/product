@@ -30,7 +30,6 @@ Wizard should not show until a product type is selected
 2. Go through product wizard
    1. [Convert](features/convert/README.md)
    2. [Simple](features/simple/README.md)
-   3. Refi (not available yet)
 
 ## Examples
 

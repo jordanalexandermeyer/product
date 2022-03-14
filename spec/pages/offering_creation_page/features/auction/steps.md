@@ -9,7 +9,7 @@ The purpose of the offering steps is to allow the user to supply all the offerin
 Multiple sub steps are listed here that can be used in different offering wizards.
 
 Sub steps are shown in the wizard
-![](../../../assets/balancer/wizard_steps.png)
+![](../../../../assets/balancer/wizard_steps.png)
 
 ## Sub steps
 
@@ -61,7 +61,7 @@ Sub steps are shown in the wizard
 **inputs**
 
 - Create button
-  - ![](../../../assets/balancer/approve_steps.png)
+  - ![](../../../../assets/balancer/approve_steps.png)
 - Description
   - Allows user to write a paragraph about the offering
 

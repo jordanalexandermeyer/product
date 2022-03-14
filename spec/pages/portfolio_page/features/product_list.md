@@ -48,4 +48,4 @@ Lists will be implemented as a table. Each product will link to its correspondin
 
 ### Barnbridge
 
-![](../../../../../spec/assets/barnbridge/bond_list.png)
+![](../../../assets/barnbridge/bond_list.png)

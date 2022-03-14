@@ -48,14 +48,8 @@ Lists will be implemented as a table.
 
 ### Copper Launch
 
-#### Auction panel
+![](../../../assets/copper/vetted_auction_list.png)
 
-![](../../../../../spec/assets/copper/auction_discovery.png)
+### Balancer
 
-#### Vetted list
-
-![](../../../../../spec/assets/copper/vetted_auction_list.png)
-
-#### Unvetted list
-
-![](../../../../../spec/assets/copper/unvetted_auction_list.png)
+![](../../../assets/balancer/discovery_page.png)

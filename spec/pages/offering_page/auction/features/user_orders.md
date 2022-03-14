@@ -63,4 +63,8 @@ User orders will be implemented as a new tab in the [orderbook](orderbook.md)
 
 ### Gnosis Auction
 
-![](../../../assets/gnosis/your_order.png)
+![](../../../../assets/gnosis/your_order.png)
+
+### Balancer
+
+![](../../../../assets/balancer/my_investments.png)

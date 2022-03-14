@@ -67,14 +67,14 @@ Sub steps are shown in the wizard
 **inputs**
 
 - Approve button
-  - ![](../../../assets/balancer/approve_steps.png)
+  - ![](../../../../assets/balancer/approve_steps.png)
   - Need a step to approve collateral collateral asset
 
 **display**
 
 - Collateral token
   - If convert, show convertibility as well
-  - ![](../../../assets/balancer/collateral_summary.png)
+  - ![](../../../../assets/balancer/collateral_summary.png)
 - Description
   - Allows user to write a paragraph about the offering
 
@@ -85,4 +85,3 @@ Sub steps are shown in the wizard
   - Maturity date
   - Product type
     - Convert
-  - ![](../../../assets/balancer/pool_summary.png)
