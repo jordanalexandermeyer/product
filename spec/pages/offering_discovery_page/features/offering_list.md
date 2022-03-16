@@ -44,11 +44,11 @@ Example of how Sushi Miso uses different icons for different product types [here
 - Value: amount
   - Ex: 50,000,000
 
-#### **Maturity date**
+#### **Access**
 
-- Description: Bond maturity date
-- Value: date time
-  - Ex: 23 AUG 2022
+- Description: Who can participate in offering.
+- Value: enum
+  - Ex: Public/Private
 
 #### **Interest rate**
 
