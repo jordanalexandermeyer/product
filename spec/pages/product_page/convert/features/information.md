@@ -60,17 +60,17 @@ The Convert information will be displayed in a panel.
 - Value: percent
   - Ex: 350%
 
-#### Convertible tokens
+#### Conversion ratio
 
 - Description: The amount of collateral asset each bond is convertible into
 - Value: number and type of asset
   - Ex: 0.01 UNI
 
-#### Conversion ratio
+#### Convertible token value
 
-- Description: Calculated by dividing value of convertible tokens offered by bonds issued.
-- Value: percent
-  - Ex: 50%
+- Description: Value of convertible tokens/bond.
+- Value: number in borrowed asset
+  - Ex: 0.5 USDC
 
 ## Example
 
