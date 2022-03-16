@@ -6,9 +6,9 @@ The purpose of Convert information is to display to the user necessary informati
 
 ## Implementation
 
-The Convert information will be displayed in a panel.
+The Convert information will be displayed in multiple panels.
 
-### Information to display
+### Panel 1: Convert Details
 
 #### Type
 
@@ -16,13 +16,12 @@ The Convert information will be displayed in a panel.
 - Value: enum + logo
   - ⏩ Convert
 
-#### Convert name and address
+#### Name and address
 
 - Description: The logo and name of the Convert token. Next to the name should be a link to the contract on etherscan
-- Value: image and name of org and product name as subline
+- Value: product name
   - Ex:
-    - Above: 🦄 Uniswap
-    - Below: UNISWAP CONVERT 24AUG2022 USDC
+    - UNISWAP CONVERT 24AUG2022 USDC
 
 #### Supply
 
@@ -36,17 +35,19 @@ The Convert information will be displayed in a panel.
 - Value: date
   - Ex: 24 AUG 2022 00:00 UTC
 
+### Panel 2: Collateral
+
 #### Collateral tokens
 
 - Description: Type and amount of asset being provided as collateral per bond
 - Value: numbers and types of asset
   - Ex: 0.05 UNI
 
-#### Current token price
+#### Collateral token price
 
 - Description: The current price of the asset provided as collateral in terms of the borrowed asset
 - Value: numbers and types of asset
-  - Ex: UNI - 25.93 USDC
+  - Ex: 25.93 USDC
 
 #### Collateral value
 
@@ -58,7 +59,9 @@ The Convert information will be displayed in a panel.
 
 - Description: Calculated by dividing value of collateral offered by bonds issued.
 - Value: percent
-  - Ex: 350%
+  - Ex: 300%
+
+### Panel 3: Convertibility
 
 #### Conversion ratio
 
@@ -66,11 +69,23 @@ The Convert information will be displayed in a panel.
 - Value: number and type of asset
   - Ex: 0.01 UNI
 
+#### Convertible token price
+
+- Description: The current price of the asset provided as collateral in terms of the borrowed asset
+- Value: numbers and types of asset
+  - Ex: 25.93 USDC
+
 #### Convertible token value
 
 - Description: Value of convertible tokens/bond.
 - Value: number in borrowed asset
   - Ex: 0.5 USDC
+
+#### Strike price
+
+- Description: Collateral token price at which the convertible token value equals the amount owed
+- Value: number in borrowed asset
+  - Ex: 45 USDC
 
 ## Example
 
