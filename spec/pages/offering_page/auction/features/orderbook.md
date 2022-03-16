@@ -19,11 +19,11 @@ There should be a second tab named "my orders" that allows the user to see their
 
 ### Headers
 
-#### Time
+#### Status
 
-- Description: The time the bid was submitted
-- Value: date and time
-  - Ex: Jan 14, 2022, 12:00 UTC
+- Description: Status of order
+- Value: enum
+  - Ex: Active
 
 #### Price
 
@@ -43,11 +43,11 @@ There should be a second tab named "my orders" that allows the user to see their
 - Value: amount and type of asset
   - Ex: 750,000 USDC
 
-#### Actions
+#### Transaction
 
-- Description: Actions user can take
-- Value: buttons
-  - View transaction (etherscan link)
+- Description: Link to transaction on etherscan
+- Value: icon
+  - External link icon (etherscan link)
 
 ## Examples
 

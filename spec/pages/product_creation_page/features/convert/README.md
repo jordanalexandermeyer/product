@@ -13,10 +13,10 @@ Sub steps are shown in the wizard
 
 ## Sub steps
 
-### [Setup product](../steps.md###Setup-product)
+### [Setup product](steps.md#L16)
 
-### [Choose collateral](../steps.md###Choose-collateral)
+### [Choose collateral](steps.md#L29)
 
-### [Set convertibility](../steps.md###Set-convertibility)
+### [Set convertibility](steps.md#L51)
 
-### [Confirm creation](../steps.md###Confirm-creation)
+### [Confirm creation](steps.md#L65)

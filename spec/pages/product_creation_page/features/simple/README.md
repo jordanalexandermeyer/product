@@ -13,8 +13,8 @@ Sub steps are shown in the wizard
 
 ## Sub steps
 
-### [Setup product](../steps.md###Setup-product)
+### [Setup product](steps.md#L16)
 
-### [Choose collateral](../steps.md###Choose-collateral)
+### [Choose collateral](steps.md#L29)
 
-### [Confirm creation](../steps.md###Confirm-creation)
+### [Confirm creation](steps.md#L51)
