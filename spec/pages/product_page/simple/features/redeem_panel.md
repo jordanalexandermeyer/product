@@ -29,15 +29,24 @@ The redeem panel will be implemented as a panel.
 - Balance
   - Description: Amount of bonds in connected wallet
   - Value: number
-    - Ex: 750,000 UNI SIMPLE 07AUG2022 2P USDC
+    - Ex: 100,000 UNI SIMPLE 22AUG2022 2P USDC
 - Amount of bonds to redeem
   - Description: Amount of bonds user redeems
   - Value: number
-    - Ex: 750,000 UNI SIMPLE 07AUG2022 2P USDC
+    - Ex: 100,000 UNI SIMPLE 22AUG2022 2P USDC
 - Amount of assets to receive
   - Description: Amount of borrowed asset and collateral available for redemption
   - Value: amount and type of assets
-    - Ex: 500,640 USDC and 35 UNI
+    - States:
+      - Repaid
+        - Only show borrowed asset (USDC)
+          - Ex: 100,000 USDC
+      - Partially repaid
+        - Show borrowed asset (USDC) and collateral asset (UNI)
+          - Ex: 50,000 USDC and 25,000 UNI
+      - Defaulted
+        - Only show collateral asset (UNI)
+          - Ex: 50,000 UNI
 
 #### Inputs
 

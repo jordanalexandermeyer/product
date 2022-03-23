@@ -21,7 +21,7 @@ The Convert information will be displayed in multiple panels.
 - Description: The logo and name of the Convert token. Next to the name should be a link to the contract on etherscan
 - Value: product name
   - Ex:
-    - UNI CONVERT 24AUG2022 2P 25C USDC
+    - UNI CONVERT 22AUG2022 2P 25C USDC
 
 #### Supply
 
