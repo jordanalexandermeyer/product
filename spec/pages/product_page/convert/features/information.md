@@ -21,7 +21,7 @@ The Convert information will be displayed in multiple panels.
 - Description: The logo and name of the Convert token. Next to the name should be a link to the contract on etherscan
 - Value: product name
   - Ex:
-    - UNISWAP CONVERT 24AUG2022 USDC
+    - UNI CONVERT 24AUG2022 2P 25C USDC
 
 #### Supply
 
@@ -41,51 +41,51 @@ The Convert information will be displayed in multiple panels.
 
 - Description: Type and amount of asset being provided as collateral per bond
 - Value: numbers and types of asset
-  - Ex: 0.05 UNI
+  - Ex: 0.5 UNI
 
 #### Collateral token price
 
 - Description: The current price of the asset provided as collateral in terms of the borrowed asset
 - Value: numbers and types of asset
-  - Ex: 25.93 USDC
+  - Ex: 10 USDC
 
 #### Collateral value
 
 - Description: The current value of the collateral in terms of the borrowed asset. This number comes from multiplying bond collateral by current token price
 - Value: numbers and types of asset
-  - 3 USDC
+  - Ex: 5 USDC
 
-#### Collateralization ratio
+#### Put Strike price
 
-- Description: Calculated by dividing value of collateral offered by bonds issued.
-- Value: percent
-  - Ex: 300%
+- Description: Collateral token price at which the collateral token value equals the amount owed
+- Value: number in borrowed asset
+  - Ex: 2 USDC
 
 ### Panel 3: Convertibility
 
-#### Conversion ratio
+#### Convertible tokens
 
 - Description: The amount of collateral asset each bond is convertible into
 - Value: number and type of asset
-  - Ex: 0.01 UNI
+  - Ex: 0.04 UNI
 
 #### Convertible token price
 
 - Description: The current price of the asset provided as collateral in terms of the borrowed asset
 - Value: numbers and types of asset
-  - Ex: 25.93 USDC
+  - Ex: 10 USDC
 
 #### Convertible token value
 
 - Description: Value of convertible tokens/bond.
 - Value: number in borrowed asset
-  - Ex: 0.5 USDC
+  - Ex: 0.4 USDC
 
-#### Strike price
+#### Call Strike price
 
 - Description: Collateral token price at which the convertible token value equals the amount owed
 - Value: number in borrowed asset
-  - Ex: 45 USDC
+  - Ex: 25 USDC
 
 ## Example
 

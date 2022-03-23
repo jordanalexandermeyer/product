@@ -33,9 +33,7 @@ The purpose of the Simple product page is to enable the user to learn about, man
 
 ### [Information](features/information.md)
 
-### [Withdraw panel](features/withdraw_panel.md)
-
-### [Trade panel](features/trade_panel.md)
+### [Withdraw panel](features/redeem_panel.md)
 
 ## Examples
 

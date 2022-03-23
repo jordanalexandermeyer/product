@@ -29,11 +29,11 @@ The redeem panel will be implemented as a panel.
 - Balance
   - Description: Amount of bonds in connected wallet
   - Value: number
-    - Ex: 750,000 UNI CONVERT 07AUG2022 2P 25C USDC
+    - Ex: 750,000 UNI SIMPLE 07AUG2022 2P USDC
 - Amount of bonds to redeem
   - Description: Amount of bonds user redeems
   - Value: number
-    - Ex: 750,000 UNI CONVERT 07AUG2022 2P 25C USDC
+    - Ex: 750,000 UNI SIMPLE 07AUG2022 2P USDC
 - Amount of assets to receive
   - Description: Amount of borrowed asset and collateral available for redemption
   - Value: amount and type of assets

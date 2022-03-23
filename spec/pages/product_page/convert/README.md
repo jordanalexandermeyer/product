@@ -35,11 +35,9 @@ The purpose of the Convert product page is to enable the user to learn about, ma
 
 ### [Convert information](features/information.md)
 
-### [Withdraw panel](features/withdraw_panel.md)
-
 ### [Redeem panel](features/redeem_panel.md)
 
-### [Trade panel](features/trade_panel.md)
+### [Convert panel](features/convert_panel.md)
 
 ## Examples
 

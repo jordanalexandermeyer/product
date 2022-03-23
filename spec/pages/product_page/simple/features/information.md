@@ -2,13 +2,13 @@
 
 ## Purpose
 
-The purpose of Convert information is to display to the user necessary information regarding the bond.
+The purpose of Simple information is to display to the user necessary information regarding the bond.
 
 ## Implementation
 
 The Simple information will be displayed in multiple panels.
 
-### Panel 1: Simple Details
+### Panel 1: Details
 
 #### Type
 
@@ -21,7 +21,7 @@ The Simple information will be displayed in multiple panels.
 - Description: The logo and name of the Simple token. Next to the name should be a link to the contract on etherscan
 - Value: product name
   - Ex:
-    - UNISWAP SIMPLE 24AUG2022 USDC
+    - UNI SIMPLE 24AUG2022 2P USDC
 
 #### Supply
 
@@ -41,25 +41,25 @@ The Simple information will be displayed in multiple panels.
 
 - Description: Type and amount of asset being provided as collateral per bond
 - Value: numbers and types of asset
-  - Ex: 0.05 UNI
+  - Ex: 0.5 UNI
 
 #### Collateral token price
 
 - Description: The current price of the asset provided as collateral in terms of the borrowed asset
 - Value: numbers and types of asset
-  - Ex: 25.93 USDC
+  - Ex: 10 USDC
 
 #### Collateral value
 
 - Description: The current value of the collateral in terms of the borrowed asset. This number comes from multiplying bond collateral by current token price
 - Value: numbers and types of asset
-  - 3 USDC
+  - Ex: 5 USDC
 
-#### Collateralization ratio
+#### Put Strike price
 
-- Description: Calculated by dividing value of collateral offered by bonds issued.
-- Value: percent
-  - Ex: 300%
+- Description: Collateral token price at which the collateral token value equals the amount owed
+- Value: number in borrowed asset
+  - Ex: 2 USDC
 
 ## Example
 
