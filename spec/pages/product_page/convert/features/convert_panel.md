@@ -7,43 +7,52 @@ The purpose of the actions panel is to allow users to redeem their Converts for 
 ## States
 
 - Before maturity
-  - Users can redeem bonds for portion of collateral
+  - Active state
 - After maturity
-  - Panel is disabled
+  - Disabled state
 
 ## Implementation
 
 The redeem panel will have a different implementation and purpose depending on the state of the auction.
 
-### Before maturity
+### Active state
 
 #### Information
 
+- Status
+  - Active
+    - Should indicate that this won't last forever
+    - Ideas:
+      - Active until 07AUG2022
+      - Active until maturity
+      - Active for 300 days 0 hours
 - Balance
   - Description: Amount of bonds in connected wallet
   - Value: number
     - Ex: 100,000 UNI CONVERT 22AUG2022 2P 25C USDC
-- Conversion ratio
-  - Description: Amount of collateral each bond is convertible to
-  - Value: amount and type of asset
-    - Ex: 0.04 UNI
-- Conversion amount
-  - Description: Amount of convertible tokens the entered amount of bonds can be convertible to. Calculate this and display it after a user has entered the "amount" input.
+- Amount of assets to receive
+  - Description: Amount of convertible tokens available for redemption
   - Value: amount and type of asset
     - Ex: 4,000 UNI
-    - Add a parantheses with value in borrow token (USDC in this case)
 
 #### Inputs
 
-- Amount
+- Max button
+  - Increases "Amount of bonds to convert" to "Balance"
+- Amount of bonds to convert
   - Description: amount of bonds to convert to collateral asset
   - Value: amount and type of asset
     - Ex: 100,000 UNI CONVERT 07AUG2022 2P 25C USDC
 - Convert button
+  - Becomes a "Connect wallet" if wallet isn't connected
 
-### After maturity
+### Disabled state
 
-- Empty state explaining bonds can no longer be converted
+I'm not sure how best to handle this.
+Objectives:
+
+- Show user there was a "convert panel"
+- Explain to user that conversions are no longer allowed after maturity date
 
 ## Examples
 
